@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/machine-learning.md",
+    "category": "ml",
+    "title": "Machine Learning",
+    "description": "Learn machine learning basics and boost your skills. Discover AI applications",
+    "date": "2026-03-02",
+    "tags": [
+      "machine-learning",
+      "artificial-intelligence",
+      "deep-learning",
+      "natural-language-processing",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/machine-learning.md"
+  },
+  {
     "id": "blogs/ml/machine-learning-types.md",
     "category": "ml",
     "title": "Machine Learning Types",
