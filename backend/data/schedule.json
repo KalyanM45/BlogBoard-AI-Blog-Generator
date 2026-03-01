@@ -1,0 +1,3530 @@
+{
+  "2026-03-02": [
+    {
+      "domain": "Machine Learning",
+      "topic": "What is Machine Learning?"
+    }
+  ],
+  "2026-03-03": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Introduction to Deep Learning"
+    }
+  ],
+  "2026-03-04": [
+    {
+      "domain": "Statistics",
+      "topic": "Introduction to Statistics for AI & ML"
+    }
+  ],
+  "2026-03-05": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Introduction to NLP"
+    }
+  ],
+  "2026-03-06": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Introduction to Computer Vision"
+    }
+  ],
+  "2026-03-07": [
+    {
+      "domain": "Generative AI",
+      "topic": "Introduction to Generative AI"
+    }
+  ],
+  "2026-03-09": [
+    {
+      "domain": "Machine Learning",
+      "topic": "ML Project Lifecycle"
+    }
+  ],
+  "2026-03-10": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Neural Network Fundamentals"
+    }
+  ],
+  "2026-03-11": [
+    {
+      "domain": "Statistics",
+      "topic": "Types of Data in ML"
+    }
+  ],
+  "2026-03-12": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Text Preprocessing Techniques"
+    }
+  ],
+  "2026-03-13": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Digital Image Fundamentals"
+    }
+  ],
+  "2026-03-14": [
+    {
+      "domain": "Generative AI",
+      "topic": "History of Generative Models"
+    }
+  ],
+  "2026-03-16": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Types of ML Algorithms"
+    }
+  ],
+  "2026-03-17": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Perceptron Explained"
+    }
+  ],
+  "2026-03-18": [
+    {
+      "domain": "Statistics",
+      "topic": "Population vs Sample"
+    }
+  ],
+  "2026-03-19": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Tokenization Methods"
+    }
+  ],
+  "2026-03-20": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Representation and Color Spaces"
+    }
+  ],
+  "2026-03-21": [
+    {
+      "domain": "Generative AI",
+      "topic": "Probabilistic Generative Modeling"
+    }
+  ],
+  "2026-03-23": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Supervised vs Unsupervised"
+    }
+  ],
+  "2026-03-24": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Forward Propagation"
+    }
+  ],
+  "2026-03-25": [
+    {
+      "domain": "Statistics",
+      "topic": "Measures of Central Tendency"
+    }
+  ],
+  "2026-03-26": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Stopwords and Text Cleaning"
+    }
+  ],
+  "2026-03-27": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Filtering and Convolution"
+    }
+  ],
+  "2026-03-28": [
+    {
+      "domain": "Generative AI",
+      "topic": "Autoregressive Models"
+    }
+  ],
+  "2026-03-30": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Bias vs Variance"
+    }
+  ],
+  "2026-03-31": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Backpropagation Intuition"
+    }
+  ],
+  "2026-04-01": [
+    {
+      "domain": "Statistics",
+      "topic": "Measures of Dispersion"
+    }
+  ],
+  "2026-04-02": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Stemming and Lemmatization"
+    }
+  ],
+  "2026-04-03": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Edge Detection Techniques"
+    }
+  ],
+  "2026-04-04": [
+    {
+      "domain": "Generative AI",
+      "topic": "Energy-Based Models"
+    }
+  ],
+  "2026-04-06": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Overfitting & Underfitting"
+    }
+  ],
+  "2026-04-07": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Loss Functions in Deep Learning"
+    }
+  ],
+  "2026-04-08": [
+    {
+      "domain": "Statistics",
+      "topic": "Probability Basics"
+    }
+  ],
+  "2026-04-09": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Regular Expressions for Text"
+    }
+  ],
+  "2026-04-10": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Histogram Equalization"
+    }
+  ],
+  "2026-04-11": [
+    {
+      "domain": "Generative AI",
+      "topic": "Variational Autoencoders"
+    }
+  ],
+  "2026-04-13": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Train/Test Split"
+    }
+  ],
+  "2026-04-14": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Activation Functions Overview"
+    }
+  ],
+  "2026-04-15": [
+    {
+      "domain": "Statistics",
+      "topic": "Conditional Probability"
+    }
+  ],
+  "2026-04-16": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Bag of Words Model"
+    }
+  ],
+  "2026-04-17": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Thresholding"
+    }
+  ],
+  "2026-04-18": [
+    {
+      "domain": "Generative AI",
+      "topic": "GAN Fundamentals"
+    }
+  ],
+  "2026-04-20": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Cross Validation"
+    }
+  ],
+  "2026-04-21": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Gradient Descent Variants"
+    }
+  ],
+  "2026-04-22": [
+    {
+      "domain": "Statistics",
+      "topic": "Bayes Theorem"
+    }
+  ],
+  "2026-04-23": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "TF-IDF Representation"
+    }
+  ],
+  "2026-04-24": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Morphological Operations"
+    }
+  ],
+  "2026-04-25": [
+    {
+      "domain": "Generative AI",
+      "topic": "GAN Training Challenges"
+    }
+  ],
+  "2026-04-27": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Engineering Basics"
+    }
+  ],
+  "2026-04-28": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Optimizers: SGD vs Adam"
+    }
+  ],
+  "2026-04-29": [
+    {
+      "domain": "Statistics",
+      "topic": "Random Variables"
+    }
+  ],
+  "2026-04-30": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "N-grams and Language Modeling"
+    }
+  ],
+  "2026-05-01": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Feature Detection and Description"
+    }
+  ],
+  "2026-05-02": [
+    {
+      "domain": "Generative AI",
+      "topic": "Conditional GANs"
+    }
+  ],
+  "2026-05-04": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Data Cleaning in ML"
+    }
+  ],
+  "2026-05-05": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Weight Initialization Techniques"
+    }
+  ],
+  "2026-05-06": [
+    {
+      "domain": "Statistics",
+      "topic": "Probability Distributions Overview"
+    }
+  ],
+  "2026-05-07": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Word Embeddings Overview"
+    }
+  ],
+  "2026-05-08": [
+    {
+      "domain": "Computer Vision",
+      "topic": "SIFT and SURF"
+    }
+  ],
+  "2026-05-09": [
+    {
+      "domain": "Generative AI",
+      "topic": "CycleGAN"
+    }
+  ],
+  "2026-05-11": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling Missing Values"
+    }
+  ],
+  "2026-05-12": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Vanishing & Exploding Gradients"
+    }
+  ],
+  "2026-05-13": [
+    {
+      "domain": "Statistics",
+      "topic": "Normal Distribution"
+    }
+  ],
+  "2026-05-14": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Word2Vec Architecture"
+    }
+  ],
+  "2026-05-15": [
+    {
+      "domain": "Computer Vision",
+      "topic": "ORB Features"
+    }
+  ],
+  "2026-05-16": [
+    {
+      "domain": "Generative AI",
+      "topic": "Diffusion Model Basics"
+    }
+  ],
+  "2026-05-18": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Categorical Encoding Techniques"
+    }
+  ],
+  "2026-05-19": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Batch Normalization"
+    }
+  ],
+  "2026-05-20": [
+    {
+      "domain": "Statistics",
+      "topic": "Binomial Distribution"
+    }
+  ],
+  "2026-05-21": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "GloVe Embeddings"
+    }
+  ],
+  "2026-05-22": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Segmentation Basics"
+    }
+  ],
+  "2026-05-23": [
+    {
+      "domain": "Generative AI",
+      "topic": "Denoising Diffusion Probabilistic Models"
+    }
+  ],
+  "2026-05-25": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Scaling Methods"
+    }
+  ],
+  "2026-05-26": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Dropout Regularization"
+    }
+  ],
+  "2026-05-27": [
+    {
+      "domain": "Statistics",
+      "topic": "Poisson Distribution"
+    }
+  ],
+  "2026-05-28": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "FastText Model"
+    }
+  ],
+  "2026-05-29": [
+    {
+      "domain": "Computer Vision",
+      "topic": "K-Means for Image Segmentation"
+    }
+  ],
+  "2026-05-30": [
+    {
+      "domain": "Generative AI",
+      "topic": "Latent Diffusion Models"
+    }
+  ],
+  "2026-06-01": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling Outliers"
+    }
+  ],
+  "2026-06-02": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Early Stopping"
+    }
+  ],
+  "2026-06-03": [
+    {
+      "domain": "Statistics",
+      "topic": "Uniform Distribution"
+    }
+  ],
+  "2026-06-04": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Contextual Embeddings"
+    }
+  ],
+  "2026-06-05": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Hough Transform"
+    }
+  ],
+  "2026-06-06": [
+    {
+      "domain": "Generative AI",
+      "topic": "Score-Based Generative Models"
+    }
+  ],
+  "2026-06-08": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Data Leakage Explained"
+    }
+  ],
+  "2026-06-09": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Hyperparameter Tuning in DL"
+    }
+  ],
+  "2026-06-10": [
+    {
+      "domain": "Statistics",
+      "topic": "Central Limit Theorem"
+    }
+  ],
+  "2026-06-11": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Sentence and Document Embeddings"
+    }
+  ],
+  "2026-06-12": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Template Matching"
+    }
+  ],
+  "2026-06-13": [
+    {
+      "domain": "Generative AI",
+      "topic": "Normalizing Flows"
+    }
+  ],
+  "2026-06-15": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Linear Regression"
+    }
+  ],
+  "2026-06-16": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Building NN with PyTorch"
+    }
+  ],
+  "2026-06-17": [
+    {
+      "domain": "Statistics",
+      "topic": "Law of Large Numbers"
+    }
+  ],
+  "2026-06-18": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Similarity Measures in NLP"
+    }
+  ],
+  "2026-06-19": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Optical Flow"
+    }
+  ],
+  "2026-06-20": [
+    {
+      "domain": "Generative AI",
+      "topic": "Transformer Architecture for Generation"
+    }
+  ],
+  "2026-06-22": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Polynomial Regression"
+    }
+  ],
+  "2026-06-23": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Building NN with TensorFlow"
+    }
+  ],
+  "2026-06-24": [
+    {
+      "domain": "Statistics",
+      "topic": "Sampling Techniques"
+    }
+  ],
+  "2026-06-25": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Text Classification Fundamentals"
+    }
+  ],
+  "2026-06-26": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Object Detection Fundamentals"
+    }
+  ],
+  "2026-06-27": [
+    {
+      "domain": "Generative AI",
+      "topic": "Large Language Model Fundamentals"
+    }
+  ],
+  "2026-06-29": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Ridge Regression"
+    }
+  ],
+  "2026-06-30": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Training Best Practices"
+    }
+  ],
+  "2026-07-01": [
+    {
+      "domain": "Statistics",
+      "topic": "Sampling Bias"
+    }
+  ],
+  "2026-07-02": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Naive Bayes for NLP"
+    }
+  ],
+  "2026-07-03": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Region-Based CNN"
+    }
+  ],
+  "2026-07-04": [
+    {
+      "domain": "Generative AI",
+      "topic": "Pretraining Objectives in LLMs"
+    }
+  ],
+  "2026-07-06": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Lasso Regression"
+    }
+  ],
+  "2026-07-07": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Evaluation in DL"
+    }
+  ],
+  "2026-07-08": [
+    {
+      "domain": "Statistics",
+      "topic": "Point Estimation"
+    }
+  ],
+  "2026-07-09": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Logistic Regression for Text"
+    }
+  ],
+  "2026-07-10": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Fast and Faster R-CNN"
+    }
+  ],
+  "2026-07-11": [
+    {
+      "domain": "Generative AI",
+      "topic": "Causal vs Masked Language Models"
+    }
+  ],
+  "2026-07-13": [
+    {
+      "domain": "Machine Learning",
+      "topic": "ElasticNet"
+    }
+  ],
+  "2026-07-14": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Saving & Loading Models"
+    }
+  ],
+  "2026-07-15": [
+    {
+      "domain": "Statistics",
+      "topic": "Confidence Intervals"
+    }
+  ],
+  "2026-07-16": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Evaluation Metrics in NLP"
+    }
+  ],
+  "2026-07-17": [
+    {
+      "domain": "Computer Vision",
+      "topic": "YOLO Architecture"
+    }
+  ],
+  "2026-07-18": [
+    {
+      "domain": "Generative AI",
+      "topic": "Scaling Laws in LLMs"
+    }
+  ],
+  "2026-07-20": [
+    {
+      "domain": "Machine Learning",
+      "topic": "kNN Regression"
+    }
+  ],
+  "2026-07-21": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Convolutional Neural Networks Basics"
+    }
+  ],
+  "2026-07-22": [
+    {
+      "domain": "Statistics",
+      "topic": "Hypothesis Testing Basics"
+    }
+  ],
+  "2026-07-23": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Topic Modeling Concepts"
+    }
+  ],
+  "2026-07-24": [
+    {
+      "domain": "Computer Vision",
+      "topic": "SSD Object Detection"
+    }
+  ],
+  "2026-07-25": [
+    {
+      "domain": "Generative AI",
+      "topic": "Fine-Tuning Strategies"
+    }
+  ],
+  "2026-07-27": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Decision Tree Regression"
+    }
+  ],
+  "2026-07-28": [
+    {
+      "domain": "Deep Learning",
+      "topic": "CNN Architectures Overview"
+    }
+  ],
+  "2026-07-29": [
+    {
+      "domain": "Statistics",
+      "topic": "Null vs Alternative Hypothesis"
+    }
+  ],
+  "2026-07-30": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Latent Dirichlet Allocation"
+    }
+  ],
+  "2026-07-31": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Classification with CNNs"
+    }
+  ],
+  "2026-08-01": [
+    {
+      "domain": "Generative AI",
+      "topic": "Instruction Tuning"
+    }
+  ],
+  "2026-08-03": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Random Forest Regression"
+    }
+  ],
+  "2026-08-04": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Pooling Layers Explained"
+    }
+  ],
+  "2026-08-05": [
+    {
+      "domain": "Statistics",
+      "topic": "p-value Explained"
+    }
+  ],
+  "2026-08-06": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Named Entity Recognition"
+    }
+  ],
+  "2026-08-07": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Transfer Learning in Vision"
+    }
+  ],
+  "2026-08-08": [
+    {
+      "domain": "Generative AI",
+      "topic": "Reinforcement Learning from Human Feedback"
+    }
+  ],
+  "2026-08-10": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Gradient Boosting Regression"
+    }
+  ],
+  "2026-08-11": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Transfer Learning in CNNs"
+    }
+  ],
+  "2026-08-12": [
+    {
+      "domain": "Statistics",
+      "topic": "Type I & Type II Errors"
+    }
+  ],
+  "2026-08-13": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Part-of-Speech Tagging"
+    }
+  ],
+  "2026-08-14": [
+    {
+      "domain": "Computer Vision",
+      "topic": "ResNet Architecture"
+    }
+  ],
+  "2026-08-15": [
+    {
+      "domain": "Generative AI",
+      "topic": "Direct Preference Optimization"
+    }
+  ],
+  "2026-08-17": [
+    {
+      "domain": "Machine Learning",
+      "topic": "XGBoost Regression"
+    }
+  ],
+  "2026-08-18": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Fine-Tuning Pretrained Models"
+    }
+  ],
+  "2026-08-19": [
+    {
+      "domain": "Statistics",
+      "topic": "Z-Test"
+    }
+  ],
+  "2026-08-20": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Dependency Parsing"
+    }
+  ],
+  "2026-08-21": [
+    {
+      "domain": "Computer Vision",
+      "topic": "DenseNet Overview"
+    }
+  ],
+  "2026-08-22": [
+    {
+      "domain": "Generative AI",
+      "topic": "Parameter-Efficient Fine-Tuning"
+    }
+  ],
+  "2026-08-24": [
+    {
+      "domain": "Machine Learning",
+      "topic": "LightGBM Regression"
+    }
+  ],
+  "2026-08-25": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Residual Networks (ResNet)"
+    }
+  ],
+  "2026-08-26": [
+    {
+      "domain": "Statistics",
+      "topic": "T-Test"
+    }
+  ],
+  "2026-08-27": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Hidden Markov Models in NLP"
+    }
+  ],
+  "2026-08-28": [
+    {
+      "domain": "Computer Vision",
+      "topic": "EfficientNet"
+    }
+  ],
+  "2026-08-29": [
+    {
+      "domain": "Generative AI",
+      "topic": "LoRA and Adapters"
+    }
+  ],
+  "2026-08-31": [
+    {
+      "domain": "Machine Learning",
+      "topic": "CatBoost Regression"
+    }
+  ],
+  "2026-09-01": [
+    {
+      "domain": "Deep Learning",
+      "topic": "DenseNet Overview"
+    }
+  ],
+  "2026-09-02": [
+    {
+      "domain": "Statistics",
+      "topic": "Chi-Square Test"
+    }
+  ],
+  "2026-09-03": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Conditional Random Fields"
+    }
+  ],
+  "2026-09-04": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Vision Transformers"
+    }
+  ],
+  "2026-09-05": [
+    {
+      "domain": "Generative AI",
+      "topic": "Prompt Engineering Principles"
+    }
+  ],
+  "2026-09-07": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Evaluation for Regression"
+    }
+  ],
+  "2026-09-08": [
+    {
+      "domain": "Deep Learning",
+      "topic": "EfficientNet Overview"
+    }
+  ],
+  "2026-09-09": [
+    {
+      "domain": "Statistics",
+      "topic": "ANOVA"
+    }
+  ],
+  "2026-09-10": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Recurrent Neural Networks for NLP"
+    }
+  ],
+  "2026-09-11": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Self-Attention in Vision"
+    }
+  ],
+  "2026-09-12": [
+    {
+      "domain": "Generative AI",
+      "topic": "Chain-of-Thought Prompting"
+    }
+  ],
+  "2026-09-14": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Importance in Regression"
+    }
+  ],
+  "2026-09-15": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Recurrent Neural Networks Basics"
+    }
+  ],
+  "2026-09-16": [
+    {
+      "domain": "Statistics",
+      "topic": "Correlation vs Covariance"
+    }
+  ],
+  "2026-09-17": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "LSTM for Sequence Modeling"
+    }
+  ],
+  "2026-09-18": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Semantic Segmentation"
+    }
+  ],
+  "2026-09-19": [
+    {
+      "domain": "Generative AI",
+      "topic": "Few-Shot and Zero-Shot Prompting"
+    }
+  ],
+  "2026-09-21": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Regularization in Practice"
+    }
+  ],
+  "2026-09-22": [
+    {
+      "domain": "Deep Learning",
+      "topic": "LSTM Networks"
+    }
+  ],
+  "2026-09-23": [
+    {
+      "domain": "Statistics",
+      "topic": "Pearson Correlation"
+    }
+  ],
+  "2026-09-24": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "GRU Networks"
+    }
+  ],
+  "2026-09-25": [
+    {
+      "domain": "Computer Vision",
+      "topic": "U-Net Architecture"
+    }
+  ],
+  "2026-09-26": [
+    {
+      "domain": "Generative AI",
+      "topic": "Retrieval-Augmented Generation"
+    }
+  ],
+  "2026-09-28": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Logistic Regression"
+    }
+  ],
+  "2026-09-29": [
+    {
+      "domain": "Deep Learning",
+      "topic": "GRU Networks"
+    }
+  ],
+  "2026-09-30": [
+    {
+      "domain": "Statistics",
+      "topic": "Spearman Correlation"
+    }
+  ],
+  "2026-10-01": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Attention Mechanism"
+    }
+  ],
+  "2026-10-02": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Instance Segmentation"
+    }
+  ],
+  "2026-10-03": [
+    {
+      "domain": "Generative AI",
+      "topic": "Vector Databases in GenAI"
+    }
+  ],
+  "2026-10-05": [
+    {
+      "domain": "Machine Learning",
+      "topic": "kNN Classification"
+    }
+  ],
+  "2026-10-06": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Sequence Modeling Concepts"
+    }
+  ],
+  "2026-10-07": [
+    {
+      "domain": "Statistics",
+      "topic": "Regression Assumptions"
+    }
+  ],
+  "2026-10-08": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Transformers Architecture"
+    }
+  ],
+  "2026-10-09": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Mask R-CNN"
+    }
+  ],
+  "2026-10-10": [
+    {
+      "domain": "Generative AI",
+      "topic": "Embedding Models"
+    }
+  ],
+  "2026-10-12": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Decision Tree Classifier"
+    }
+  ],
+  "2026-10-13": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Bidirectional RNNs"
+    }
+  ],
+  "2026-10-14": [
+    {
+      "domain": "Statistics",
+      "topic": "Maximum Likelihood Estimation"
+    }
+  ],
+  "2026-10-15": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Self-Attention Deep Dive"
+    }
+  ],
+  "2026-10-16": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Pose Estimation"
+    }
+  ],
+  "2026-10-17": [
+    {
+      "domain": "Generative AI",
+      "topic": "Text-to-Image Generation"
+    }
+  ],
+  "2026-10-19": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Random Forest Classifier"
+    }
+  ],
+  "2026-10-20": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Attention Mechanism"
+    }
+  ],
+  "2026-10-21": [
+    {
+      "domain": "Statistics",
+      "topic": "Log-Likelihood in ML"
+    }
+  ],
+  "2026-10-22": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "BERT Model Overview"
+    }
+  ],
+  "2026-10-23": [
+    {
+      "domain": "Computer Vision",
+      "topic": "3D Computer Vision Basics"
+    }
+  ],
+  "2026-10-24": [
+    {
+      "domain": "Generative AI",
+      "topic": "Image-to-Image Generation"
+    }
+  ],
+  "2026-10-26": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Gradient Boosting Classifier"
+    }
+  ],
+  "2026-10-27": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Transformers Architecture"
+    }
+  ],
+  "2026-10-28": [
+    {
+      "domain": "Statistics",
+      "topic": "Bias & Variance in Estimation"
+    }
+  ],
+  "2026-10-29": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "GPT Model Overview"
+    }
+  ],
+  "2026-10-30": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Stereo Vision"
+    }
+  ],
+  "2026-10-31": [
+    {
+      "domain": "Generative AI",
+      "topic": "Text-to-Video Generation"
+    }
+  ],
+  "2026-11-02": [
+    {
+      "domain": "Machine Learning",
+      "topic": "XGBoost Classifier"
+    }
+  ],
+  "2026-11-03": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Self-Attention Explained"
+    }
+  ],
+  "2026-11-04": [
+    {
+      "domain": "Statistics",
+      "topic": "Variance Inflation Factor"
+    }
+  ],
+  "2026-11-05": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Pretraining vs Fine-Tuning"
+    }
+  ],
+  "2026-11-06": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Structure from Motion"
+    }
+  ],
+  "2026-11-07": [
+    {
+      "domain": "Generative AI",
+      "topic": "Multimodal Generative Models"
+    }
+  ],
+  "2026-11-09": [
+    {
+      "domain": "Machine Learning",
+      "topic": "LightGBM Classifier"
+    }
+  ],
+  "2026-11-10": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Positional Encoding"
+    }
+  ],
+  "2026-11-11": [
+    {
+      "domain": "Statistics",
+      "topic": "Multicollinearity"
+    }
+  ],
+  "2026-11-12": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Transfer Learning in NLP"
+    }
+  ],
+  "2026-11-13": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image Augmentation Techniques"
+    }
+  ],
+  "2026-11-14": [
+    {
+      "domain": "Generative AI",
+      "topic": "Vision-Language Models"
+    }
+  ],
+  "2026-11-16": [
+    {
+      "domain": "Machine Learning",
+      "topic": "CatBoost Classifier"
+    }
+  ],
+  "2026-11-17": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Encoder-Decoder Models"
+    }
+  ],
+  "2026-11-18": [
+    {
+      "domain": "Statistics",
+      "topic": "Outlier Detection Methods"
+    }
+  ],
+  "2026-11-19": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Text Generation Concepts"
+    }
+  ],
+  "2026-11-20": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Data Annotation in Vision"
+    }
+  ],
+  "2026-11-21": [
+    {
+      "domain": "Generative AI",
+      "topic": "Audio Generation Models"
+    }
+  ],
+  "2026-11-23": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Support Vector Machines"
+    }
+  ],
+  "2026-11-24": [
+    {
+      "domain": "Deep Learning",
+      "topic": "BERT Architecture Overview"
+    }
+  ],
+  "2026-11-25": [
+    {
+      "domain": "Statistics",
+      "topic": "Skewness & Kurtosis"
+    }
+  ],
+  "2026-11-26": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Sequence-to-Sequence Models"
+    }
+  ],
+  "2026-11-27": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Evaluation Metrics in Vision"
+    }
+  ],
+  "2026-11-28": [
+    {
+      "domain": "Generative AI",
+      "topic": "Speech Synthesis Models"
+    }
+  ],
+  "2026-11-30": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Naive Bayes"
+    }
+  ],
+  "2026-12-01": [
+    {
+      "domain": "Deep Learning",
+      "topic": "GPT Architecture Overview"
+    }
+  ],
+  "2026-12-02": [
+    {
+      "domain": "Statistics",
+      "topic": "Feature Distribution Analysis"
+    }
+  ],
+  "2026-12-03": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Beam Search and Decoding"
+    }
+  ],
+  "2026-12-04": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Intersection over Union"
+    }
+  ],
+  "2026-12-05": [
+    {
+      "domain": "Generative AI",
+      "topic": "Music Generation Models"
+    }
+  ],
+  "2026-12-07": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Multiclass Classification"
+    }
+  ],
+  "2026-12-08": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Fine-Tuning Transformer Models"
+    }
+  ],
+  "2026-12-09": [
+    {
+      "domain": "Statistics",
+      "topic": "Data Normalization vs Standardization"
+    }
+  ],
+  "2026-12-10": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Perplexity in Language Models"
+    }
+  ],
+  "2026-12-11": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Mean Average Precision"
+    }
+  ],
+  "2026-12-12": [
+    {
+      "domain": "Generative AI",
+      "topic": "Evaluation of Generative Models"
+    }
+  ],
+  "2026-12-14": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Multi-label Classification"
+    }
+  ],
+  "2026-12-15": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Diffusion Models Overview"
+    }
+  ],
+  "2026-12-16": [
+    {
+      "domain": "Statistics",
+      "topic": "Bootstrapping"
+    }
+  ],
+  "2026-12-17": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "BLEU and ROUGE Metrics"
+    }
+  ],
+  "2026-12-18": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Adversarial Attacks in Vision"
+    }
+  ],
+  "2026-12-19": [
+    {
+      "domain": "Generative AI",
+      "topic": "Perplexity and FID Score"
+    }
+  ],
+  "2026-12-21": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling Imbalanced Data"
+    }
+  ],
+  "2026-12-22": [
+    {
+      "domain": "Deep Learning",
+      "topic": "GANs: Generator vs Discriminator"
+    }
+  ],
+  "2026-12-23": [
+    {
+      "domain": "Statistics",
+      "topic": "Resampling Methods"
+    }
+  ],
+  "2026-12-24": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Sentiment Analysis Theory"
+    }
+  ],
+  "2026-12-25": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Adversarial Defense Methods"
+    }
+  ],
+  "2026-12-26": [
+    {
+      "domain": "Generative AI",
+      "topic": "Hallucination in LLMs"
+    }
+  ],
+  "2026-12-28": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Evaluation Metrics for Classification"
+    }
+  ],
+  "2026-12-29": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Variational Autoencoders"
+    }
+  ],
+  "2026-12-30": [
+    {
+      "domain": "Statistics",
+      "topic": "Monte Carlo Simulation"
+    }
+  ],
+  "2026-12-31": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Aspect-Based Sentiment Analysis"
+    }
+  ],
+  "2027-01-01": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Explainability in Vision Models"
+    }
+  ],
+  "2027-01-02": [
+    {
+      "domain": "Generative AI",
+      "topic": "Bias and Fairness in GenAI"
+    }
+  ],
+  "2027-01-04": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Confusion Matrix Deep Dive"
+    }
+  ],
+  "2027-01-05": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Autoencoders in Practice"
+    }
+  ],
+  "2027-01-06": [
+    {
+      "domain": "Statistics",
+      "topic": "A/B Testing Fundamentals"
+    }
+  ],
+  "2027-01-07": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Text Summarization Techniques"
+    }
+  ],
+  "2027-01-08": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Grad-CAM"
+    }
+  ],
+  "2027-01-09": [
+    {
+      "domain": "Generative AI",
+      "topic": "Safety Alignment Techniques"
+    }
+  ],
+  "2027-01-11": [
+    {
+      "domain": "Machine Learning",
+      "topic": "ROC & PR Curves"
+    }
+  ],
+  "2027-01-12": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Multimodal Deep Learning"
+    }
+  ],
+  "2027-01-13": [
+    {
+      "domain": "Statistics",
+      "topic": "Statistical Power"
+    }
+  ],
+  "2027-01-14": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Machine Translation Fundamentals"
+    }
+  ],
+  "2027-01-15": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Model Compression in Vision"
+    }
+  ],
+  "2027-01-16": [
+    {
+      "domain": "Generative AI",
+      "topic": "Red Teaming for LLMs"
+    }
+  ],
+  "2027-01-18": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Threshold Tuning"
+    }
+  ],
+  "2027-01-19": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Graph Neural Networks"
+    }
+  ],
+  "2027-01-20": [
+    {
+      "domain": "Statistics",
+      "topic": "Effect Size"
+    }
+  ],
+  "2027-01-21": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Information Retrieval Basics"
+    }
+  ],
+  "2027-01-22": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Quantization in Vision Models"
+    }
+  ],
+  "2027-01-23": [
+    {
+      "domain": "Generative AI",
+      "topic": "Adversarial Attacks on Generative Models"
+    }
+  ],
+  "2027-01-25": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Ensemble Learning Basics"
+    }
+  ],
+  "2027-01-26": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Reinforcement Learning with Deep Networks"
+    }
+  ],
+  "2027-01-27": [
+    {
+      "domain": "Statistics",
+      "topic": "Confounding Variables"
+    }
+  ],
+  "2027-01-28": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "BM25 Algorithm"
+    }
+  ],
+  "2027-01-29": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Pruning CNNs"
+    }
+  ],
+  "2027-01-30": [
+    {
+      "domain": "Generative AI",
+      "topic": "Model Robustness in GenAI"
+    }
+  ],
+  "2027-02-01": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Stacking & Blending"
+    }
+  ],
+  "2027-02-02": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Deep Q Networks"
+    }
+  ],
+  "2027-02-03": [
+    {
+      "domain": "Statistics",
+      "topic": "Causal Inference Basics"
+    }
+  ],
+  "2027-02-04": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Semantic Search Concepts"
+    }
+  ],
+  "2027-02-05": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Knowledge Distillation in Vision"
+    }
+  ],
+  "2027-02-06": [
+    {
+      "domain": "Generative AI",
+      "topic": "Knowledge Distillation for LLMs"
+    }
+  ],
+  "2027-02-08": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Interpretability"
+    }
+  ],
+  "2027-02-09": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Policy Gradient Methods"
+    }
+  ],
+  "2027-02-10": [
+    {
+      "domain": "Statistics",
+      "topic": "Propensity Score Matching"
+    }
+  ],
+  "2027-02-11": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Vector Representations for Search"
+    }
+  ],
+  "2027-02-12": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Self-Supervised Learning in Vision"
+    }
+  ],
+  "2027-02-13": [
+    {
+      "domain": "Generative AI",
+      "topic": "Quantization of Large Models"
+    }
+  ],
+  "2027-02-15": [
+    {
+      "domain": "Machine Learning",
+      "topic": "K-Means Clustering"
+    }
+  ],
+  "2027-02-16": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Compression Techniques"
+    }
+  ],
+  "2027-02-17": [
+    {
+      "domain": "Statistics",
+      "topic": "Time Series Statistics Basics"
+    }
+  ],
+  "2027-02-18": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Cross-Lingual NLP"
+    }
+  ],
+  "2027-02-19": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Contrastive Learning in Vision"
+    }
+  ],
+  "2027-02-20": [
+    {
+      "domain": "Generative AI",
+      "topic": "Pruning Large Language Models"
+    }
+  ],
+  "2027-02-22": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Hierarchical Clustering"
+    }
+  ],
+  "2027-02-23": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Quantization in DL"
+    }
+  ],
+  "2027-02-24": [
+    {
+      "domain": "Statistics",
+      "topic": "Stationarity"
+    }
+  ],
+  "2027-02-25": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Multilingual Language Models"
+    }
+  ],
+  "2027-02-26": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Few-Shot Learning in Vision"
+    }
+  ],
+  "2027-02-27": [
+    {
+      "domain": "Generative AI",
+      "topic": "Distributed Training of LLMs"
+    }
+  ],
+  "2027-03-01": [
+    {
+      "domain": "Machine Learning",
+      "topic": "DBSCAN"
+    }
+  ],
+  "2027-03-02": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Pruning Neural Networks"
+    }
+  ],
+  "2027-03-03": [
+    {
+      "domain": "Statistics",
+      "topic": "Autocorrelation"
+    }
+  ],
+  "2027-03-04": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Zero-Shot and Few-Shot Learning"
+    }
+  ],
+  "2027-03-05": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Zero-Shot Learning in Vision"
+    }
+  ],
+  "2027-03-06": [
+    {
+      "domain": "Generative AI",
+      "topic": "Mixture of Experts Models"
+    }
+  ],
+  "2027-03-08": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Gaussian Mixture Models"
+    }
+  ],
+  "2027-03-09": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Knowledge Distillation"
+    }
+  ],
+  "2027-03-10": [
+    {
+      "domain": "Statistics",
+      "topic": "Partial Autocorrelation"
+    }
+  ],
+  "2027-03-11": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Prompting Techniques"
+    }
+  ],
+  "2027-03-12": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Domain Adaptation in Vision"
+    }
+  ],
+  "2027-03-13": [
+    {
+      "domain": "Generative AI",
+      "topic": "Sparse Transformers"
+    }
+  ],
+  "2027-03-15": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Clustering Evaluation"
+    }
+  ],
+  "2027-03-16": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Distributed Training"
+    }
+  ],
+  "2027-03-17": [
+    {
+      "domain": "Statistics",
+      "topic": "Heteroscedasticity"
+    }
+  ],
+  "2027-03-18": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Hallucination in Language Models"
+    }
+  ],
+  "2027-03-19": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Federated Learning in Vision"
+    }
+  ],
+  "2027-03-20": [
+    {
+      "domain": "Generative AI",
+      "topic": "Memory-Augmented Models"
+    }
+  ],
+  "2027-03-22": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Dimensionality Reduction in ML"
+    }
+  ],
+  "2027-03-23": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Mixed Precision Training"
+    }
+  ],
+  "2027-03-24": [
+    {
+      "domain": "Statistics",
+      "topic": "Cross Validation from Statistical View"
+    }
+  ],
+  "2027-03-25": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Bias in NLP Models"
+    }
+  ],
+  "2027-03-26": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Edge AI for Vision"
+    }
+  ],
+  "2027-03-27": [
+    {
+      "domain": "Generative AI",
+      "topic": "Long-Context Modeling"
+    }
+  ],
+  "2027-03-29": [
+    {
+      "domain": "Machine Learning",
+      "topic": "PCA for ML Pipelines"
+    }
+  ],
+  "2027-03-30": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Handling Large-Scale Data"
+    }
+  ],
+  "2027-03-31": [
+    {
+      "domain": "Statistics",
+      "topic": "ROC Curve Statistical Meaning"
+    }
+  ],
+  "2027-04-01": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Explainability in NLP"
+    }
+  ],
+  "2027-04-02": [
+    {
+      "domain": "Computer Vision",
+      "topic": "ONNX for Vision Models"
+    }
+  ],
+  "2027-04-03": [
+    {
+      "domain": "Generative AI",
+      "topic": "Agentic AI Concepts"
+    }
+  ],
+  "2027-04-05": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Selection Techniques"
+    }
+  ],
+  "2027-04-06": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Experiment Tracking in DL"
+    }
+  ],
+  "2027-04-07": [
+    {
+      "domain": "Statistics",
+      "topic": "Precision-Recall Tradeoff"
+    }
+  ],
+  "2027-04-08": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Model Compression in NLP"
+    }
+  ],
+  "2027-04-09": [
+    {
+      "domain": "Computer Vision",
+      "topic": "TensorRT Optimization"
+    }
+  ],
+  "2027-04-10": [
+    {
+      "domain": "Generative AI",
+      "topic": "Tool-Calling in LLMs"
+    }
+  ],
+  "2027-04-12": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Anomaly Detection"
+    }
+  ],
+  "2027-04-13": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Deployment for DL"
+    }
+  ],
+  "2027-04-14": [
+    {
+      "domain": "Statistics",
+      "topic": "Calibration of Probabilities"
+    }
+  ],
+  "2027-04-15": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Distillation in NLP"
+    }
+  ],
+  "2027-04-16": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Video Analysis Basics"
+    }
+  ],
+  "2027-04-17": [
+    {
+      "domain": "Generative AI",
+      "topic": "Planning and Reasoning in LLMs"
+    }
+  ],
+  "2027-04-19": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Isolation Forest"
+    }
+  ],
+  "2027-04-20": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Serving Models with FastAPI"
+    }
+  ],
+  "2027-04-21": [
+    {
+      "domain": "Statistics",
+      "topic": "Entropy in ML"
+    }
+  ],
+  "2027-04-22": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Quantization Techniques"
+    }
+  ],
+  "2027-04-23": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Action Recognition"
+    }
+  ],
+  "2027-04-24": [
+    {
+      "domain": "Generative AI",
+      "topic": "Self-Reflection in LLMs"
+    }
+  ],
+  "2027-04-26": [
+    {
+      "domain": "Machine Learning",
+      "topic": "One-Class SVM"
+    }
+  ],
+  "2027-04-27": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Dockerizing DL Models"
+    }
+  ],
+  "2027-04-28": [
+    {
+      "domain": "Statistics",
+      "topic": "Information Gain"
+    }
+  ],
+  "2027-04-29": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Scaling NLP Models"
+    }
+  ],
+  "2027-04-30": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Object Tracking"
+    }
+  ],
+  "2027-05-01": [
+    {
+      "domain": "Generative AI",
+      "topic": "Synthetic Data Generation"
+    }
+  ],
+  "2027-05-03": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Association Rule Mining"
+    }
+  ],
+  "2027-05-04": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Monitoring DL Models"
+    }
+  ],
+  "2027-05-05": [
+    {
+      "domain": "Statistics",
+      "topic": "Kullback-Leibler Divergence"
+    }
+  ],
+  "2027-05-06": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Low-Resource Language Modeling"
+    }
+  ],
+  "2027-05-07": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Multi-Object Tracking"
+    }
+  ],
+  "2027-05-08": [
+    {
+      "domain": "Generative AI",
+      "topic": "Data-Centric Generative AI"
+    }
+  ],
+  "2027-05-10": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Apriori Algorithm"
+    }
+  ],
+  "2027-05-11": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Drift Detection in DL"
+    }
+  ],
+  "2027-05-12": [
+    {
+      "domain": "Statistics",
+      "topic": "Jensen-Shannon Divergence"
+    }
+  ],
+  "2027-05-13": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Domain Adaptation in NLP"
+    }
+  ],
+  "2027-05-14": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Scene Understanding"
+    }
+  ],
+  "2027-05-15": [
+    {
+      "domain": "Generative AI",
+      "topic": "Evaluation Benchmarks for LLMs"
+    }
+  ],
+  "2027-05-17": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Market Basket Analysis"
+    }
+  ],
+  "2027-05-18": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Explainability in DL"
+    }
+  ],
+  "2027-05-19": [
+    {
+      "domain": "Statistics",
+      "topic": "Cross-Entropy Loss"
+    }
+  ],
+  "2027-05-20": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Knowledge Graphs in NLP"
+    }
+  ],
+  "2027-05-21": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Anomaly Detection in Images"
+    }
+  ],
+  "2027-05-22": [
+    {
+      "domain": "Generative AI",
+      "topic": "Open-Source LLM Ecosystem"
+    }
+  ],
+  "2027-05-24": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Customer Segmentation"
+    }
+  ],
+  "2027-05-25": [
+    {
+      "domain": "Deep Learning",
+      "topic": "SHAP for Deep Models"
+    }
+  ],
+  "2027-05-26": [
+    {
+      "domain": "Statistics",
+      "topic": "Logistic Regression Statistical View"
+    }
+  ],
+  "2027-05-27": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Entity Linking"
+    }
+  ],
+  "2027-05-28": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Medical Image Analysis Concepts"
+    }
+  ],
+  "2027-05-29": [
+    {
+      "domain": "Generative AI",
+      "topic": "Proprietary vs Open Models"
+    }
+  ],
+  "2027-05-31": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Hyperparameter Tuning"
+    }
+  ],
+  "2027-06-01": [
+    {
+      "domain": "Deep Learning",
+      "topic": "LIME for Deep Models"
+    }
+  ],
+  "2027-06-02": [
+    {
+      "domain": "Statistics",
+      "topic": "Regularization from Bayesian View"
+    }
+  ],
+  "2027-06-03": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Coreference Resolution"
+    }
+  ],
+  "2027-06-04": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Remote Sensing Image Analysis"
+    }
+  ],
+  "2027-06-05": [
+    {
+      "domain": "Generative AI",
+      "topic": "Cost Optimization in LLMs"
+    }
+  ],
+  "2027-06-07": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Grid Search"
+    }
+  ],
+  "2027-06-08": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Adversarial Attacks in DL"
+    }
+  ],
+  "2027-06-09": [
+    {
+      "domain": "Statistics",
+      "topic": "Prior & Posterior Distributions"
+    }
+  ],
+  "2027-06-10": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Text Clustering"
+    }
+  ],
+  "2027-06-11": [
+    {
+      "domain": "Computer Vision",
+      "topic": "GANs in Computer Vision"
+    }
+  ],
+  "2027-06-12": [
+    {
+      "domain": "Generative AI",
+      "topic": "Latency Optimization in GenAI"
+    }
+  ],
+  "2027-06-14": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Random Search"
+    }
+  ],
+  "2027-06-15": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Adversarial Defense Techniques"
+    }
+  ],
+  "2027-06-16": [
+    {
+      "domain": "Statistics",
+      "topic": "MAP vs MLE"
+    }
+  ],
+  "2027-06-17": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Spam Detection Theory"
+    }
+  ],
+  "2027-06-18": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Diffusion Models for Images"
+    }
+  ],
+  "2027-06-19": [
+    {
+      "domain": "Generative AI",
+      "topic": "Model Versioning in GenAI"
+    }
+  ],
+  "2027-06-21": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Bayesian Optimization"
+    }
+  ],
+  "2027-06-22": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Ethics in Deep Learning"
+    }
+  ],
+  "2027-06-23": [
+    {
+      "domain": "Statistics",
+      "topic": "Expectation & Variance"
+    }
+  ],
+  "2027-06-24": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Fake News Detection Concepts"
+    }
+  ],
+  "2027-06-25": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Image-to-Image Translation"
+    }
+  ],
+  "2027-06-26": [
+    {
+      "domain": "Generative AI",
+      "topic": "Monitoring Generative Systems"
+    }
+  ],
+  "2027-06-28": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Early Stopping"
+    }
+  ],
+  "2027-06-29": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Bias in Deep Models"
+    }
+  ],
+  "2027-06-30": [
+    {
+      "domain": "Statistics",
+      "topic": "Covariance Matrix"
+    }
+  ],
+  "2027-07-01": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Toxicity Detection Models"
+    }
+  ],
+  "2027-07-02": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Style Transfer"
+    }
+  ],
+  "2027-07-03": [
+    {
+      "domain": "Generative AI",
+      "topic": "Drift Detection in GenAI"
+    }
+  ],
+  "2027-07-05": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Cross-Validation Strategies"
+    }
+  ],
+  "2027-07-06": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Energy Efficiency in DL"
+    }
+  ],
+  "2027-07-07": [
+    {
+      "domain": "Statistics",
+      "topic": "Eigenvalues & Eigenvectors in ML"
+    }
+  ],
+  "2027-07-08": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Intent Classification"
+    }
+  ],
+  "2027-07-09": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Neural Rendering"
+    }
+  ],
+  "2027-07-10": [
+    {
+      "domain": "Generative AI",
+      "topic": "Explainability in Generative Models"
+    }
+  ],
+  "2027-07-12": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Selection with Models"
+    }
+  ],
+  "2027-07-13": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Edge Deployment of DL Models"
+    }
+  ],
+  "2027-07-14": [
+    {
+      "domain": "Statistics",
+      "topic": "Singular Value Decomposition"
+    }
+  ],
+  "2027-07-15": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Slot Filling"
+    }
+  ],
+  "2027-07-16": [
+    {
+      "domain": "Computer Vision",
+      "topic": "NeRF Basics"
+    }
+  ],
+  "2027-07-17": [
+    {
+      "domain": "Generative AI",
+      "topic": "Uncertainty in Generative Models"
+    }
+  ],
+  "2027-07-19": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling High Cardinality"
+    }
+  ],
+  "2027-07-20": [
+    {
+      "domain": "Deep Learning",
+      "topic": "ONNX for Model Portability"
+    }
+  ],
+  "2027-07-21": [
+    {
+      "domain": "Statistics",
+      "topic": "Dimensionality Reduction Statistical View"
+    }
+  ],
+  "2027-07-22": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Dialogue System Fundamentals"
+    }
+  ],
+  "2027-07-23": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Vision-Language Models"
+    }
+  ],
+  "2027-07-24": [
+    {
+      "domain": "Generative AI",
+      "topic": "Calibration of LLM Outputs"
+    }
+  ],
+  "2027-07-26": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling Large Datasets"
+    }
+  ],
+  "2027-07-27": [
+    {
+      "domain": "Deep Learning",
+      "topic": "TensorRT Optimization"
+    }
+  ],
+  "2027-07-28": [
+    {
+      "domain": "Statistics",
+      "topic": "Gaussian Mixture Models Theory"
+    }
+  ],
+  "2027-07-29": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Reinforcement Learning for NLP"
+    }
+  ],
+  "2027-07-30": [
+    {
+      "domain": "Computer Vision",
+      "topic": "CLIP Model Overview"
+    }
+  ],
+  "2027-07-31": [
+    {
+      "domain": "Generative AI",
+      "topic": "Ethical Frameworks for GenAI"
+    }
+  ],
+  "2027-08-02": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Calibration"
+    }
+  ],
+  "2027-08-03": [
+    {
+      "domain": "Deep Learning",
+      "topic": "TorchScript Overview"
+    }
+  ],
+  "2027-08-04": [
+    {
+      "domain": "Statistics",
+      "topic": "Expectation Maximization Algorithm"
+    }
+  ],
+  "2027-08-05": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Continual Learning in NLP"
+    }
+  ],
+  "2027-08-06": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Robustness in Vision Systems"
+    }
+  ],
+  "2027-08-07": [
+    {
+      "domain": "Generative AI",
+      "topic": "Copyright and IP in GenAI"
+    }
+  ],
+  "2027-08-09": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Cost-Sensitive Learning"
+    }
+  ],
+  "2027-08-10": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Versioning Strategies"
+    }
+  ],
+  "2027-08-11": [
+    {
+      "domain": "Statistics",
+      "topic": "Markov Chains Basics"
+    }
+  ],
+  "2027-08-12": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Privacy and Security in NLP"
+    }
+  ],
+  "2027-08-13": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Bias and Fairness in Vision"
+    }
+  ],
+  "2027-08-14": [
+    {
+      "domain": "Generative AI",
+      "topic": "Privacy Concerns in Generative AI"
+    }
+  ],
+  "2027-08-16": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Handling Noisy Data"
+    }
+  ],
+  "2027-08-17": [
+    {
+      "domain": "Deep Learning",
+      "topic": "A/B Testing DL Models"
+    }
+  ],
+  "2027-08-18": [
+    {
+      "domain": "Statistics",
+      "topic": "Hidden Markov Models"
+    }
+  ],
+  "2027-08-19": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Ethics in NLP"
+    }
+  ],
+  "2027-08-20": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Uncertainty in Vision Models"
+    }
+  ],
+  "2027-08-21": [
+    {
+      "domain": "Generative AI",
+      "topic": "Federated Generative Models"
+    }
+  ],
+  "2027-08-23": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Robust ML Techniques"
+    }
+  ],
+  "2027-08-24": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Hyperparameter Search with Optuna"
+    }
+  ],
+  "2027-08-25": [
+    {
+      "domain": "Statistics",
+      "topic": "Model Selection Criteria (AIC/BIC)"
+    }
+  ],
+  "2027-08-26": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Distribution Shift in NLP"
+    }
+  ],
+  "2027-08-27": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Calibration in Vision"
+    }
+  ],
+  "2027-08-28": [
+    {
+      "domain": "Generative AI",
+      "topic": "Continual Learning in LLMs"
+    }
+  ],
+  "2027-08-30": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Error Analysis in ML"
+    }
+  ],
+  "2027-08-31": [
+    {
+      "domain": "Deep Learning",
+      "topic": "AutoML for Deep Learning"
+    }
+  ],
+  "2027-09-01": [
+    {
+      "domain": "Statistics",
+      "topic": "Likelihood Ratio Test"
+    }
+  ],
+  "2027-09-02": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Uncertainty in Language Models"
+    }
+  ],
+  "2027-09-03": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Distribution Shift in Vision"
+    }
+  ],
+  "2027-09-04": [
+    {
+      "domain": "Generative AI",
+      "topic": "Multimodal Fusion Strategies"
+    }
+  ],
+  "2027-09-06": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Comparison Strategies"
+    }
+  ],
+  "2027-09-07": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Curriculum Learning"
+    }
+  ],
+  "2027-09-08": [
+    {
+      "domain": "Statistics",
+      "topic": "Non-Parametric Statistics"
+    }
+  ],
+  "2027-09-09": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Calibration in NLP"
+    }
+  ],
+  "2027-09-10": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Concept Drift in Vision"
+    }
+  ],
+  "2027-09-11": [
+    {
+      "domain": "Generative AI",
+      "topic": "Cross-Lingual Generative Models"
+    }
+  ],
+  "2027-09-13": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Introduction to Time Series in ML"
+    }
+  ],
+  "2027-09-14": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Self-Supervised Learning"
+    }
+  ],
+  "2027-09-15": [
+    {
+      "domain": "Statistics",
+      "topic": "Kernel Density Estimation"
+    }
+  ],
+  "2027-09-16": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Adversarial Attacks in NLP"
+    }
+  ],
+  "2027-09-17": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Large-Scale Vision Training"
+    }
+  ],
+  "2027-09-18": [
+    {
+      "domain": "Generative AI",
+      "topic": "Foundation Models Overview"
+    }
+  ],
+  "2027-09-20": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Feature Engineering for Time Series"
+    }
+  ],
+  "2027-09-21": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Contrastive Learning"
+    }
+  ],
+  "2027-09-22": [
+    {
+      "domain": "Statistics",
+      "topic": "Robust Statistics"
+    }
+  ],
+  "2027-09-23": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Adversarial Defense Techniques"
+    }
+  ],
+  "2027-09-24": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Data-Centric Vision"
+    }
+  ],
+  "2027-09-25": [
+    {
+      "domain": "Generative AI",
+      "topic": "Alignment Research Directions"
+    }
+  ],
+  "2027-09-27": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Rolling Window Validation"
+    }
+  ],
+  "2027-09-28": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Few-Shot Learning"
+    }
+  ],
+  "2027-09-29": [
+    {
+      "domain": "Statistics",
+      "topic": "Distribution Shift"
+    }
+  ],
+  "2027-09-30": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Contrastive Learning in NLP"
+    }
+  ],
+  "2027-10-01": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Vision Benchmark Datasets"
+    }
+  ],
+  "2027-10-02": [
+    {
+      "domain": "Generative AI",
+      "topic": "Emerging Trends in Diffusion Models"
+    }
+  ],
+  "2027-10-04": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Tree-Based Models for Time Series"
+    }
+  ],
+  "2027-10-05": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Zero-Shot Learning"
+    }
+  ],
+  "2027-10-06": [
+    {
+      "domain": "Statistics",
+      "topic": "Concept Drift"
+    }
+  ],
+  "2027-10-07": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Self-Supervised Learning in NLP"
+    }
+  ],
+  "2027-10-08": [
+    {
+      "domain": "Computer Vision",
+      "topic": "ImageNet and COCO Overview"
+    }
+  ],
+  "2027-10-09": [
+    {
+      "domain": "Generative AI",
+      "topic": "Scaling Beyond Trillion Parameters"
+    }
+  ],
+  "2027-10-11": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Forecasting with ML Models"
+    }
+  ],
+  "2027-10-12": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Large-Scale Model Training"
+    }
+  ],
+  "2027-10-13": [
+    {
+      "domain": "Statistics",
+      "topic": "Statistical Monitoring in Production"
+    }
+  ],
+  "2027-10-14": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Parameter-Efficient Fine-Tuning"
+    }
+  ],
+  "2027-10-15": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Model Scaling Laws in Vision"
+    }
+  ],
+  "2027-10-16": [
+    {
+      "domain": "Generative AI",
+      "topic": "Neurosymbolic Generative AI"
+    }
+  ],
+  "2027-10-18": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Reinforcement Learning Basics"
+    }
+  ],
+  "2027-10-19": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Parameter-Efficient Fine-Tuning"
+    }
+  ],
+  "2027-10-20": [
+    {
+      "domain": "Statistics",
+      "topic": "Fairness Metrics in ML"
+    }
+  ],
+  "2027-10-21": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "LoRA for NLP"
+    }
+  ],
+  "2027-10-22": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Transformers vs CNNs"
+    }
+  ],
+  "2027-10-23": [
+    {
+      "domain": "Generative AI",
+      "topic": "Cognitive Architectures in AI"
+    }
+  ],
+  "2027-10-25": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Markov Decision Process"
+    }
+  ],
+  "2027-10-26": [
+    {
+      "domain": "Deep Learning",
+      "topic": "LoRA Explained"
+    }
+  ],
+  "2027-10-27": [
+    {
+      "domain": "Statistics",
+      "topic": "Uncertainty Quantification"
+    }
+  ],
+  "2027-10-28": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Model Scaling Laws"
+    }
+  ],
+  "2027-10-29": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Hybrid Vision Architectures"
+    }
+  ],
+  "2027-10-30": [
+    {
+      "domain": "Generative AI",
+      "topic": "Autonomous AI Systems"
+    }
+  ],
+  "2027-11-01": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Q-Learning"
+    }
+  ],
+  "2027-11-02": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Prompt Tuning Basics"
+    }
+  ],
+  "2027-11-03": [
+    {
+      "domain": "Statistics",
+      "topic": "Prediction Intervals"
+    }
+  ],
+  "2027-11-04": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Large Language Model Fundamentals"
+    }
+  ],
+  "2027-11-05": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Continual Learning in Vision"
+    }
+  ],
+  "2027-11-06": [
+    {
+      "domain": "Generative AI",
+      "topic": "Human-AI Collaboration Models"
+    }
+  ],
+  "2027-11-08": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Policy-Based Methods"
+    }
+  ],
+  "2027-11-09": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Scaling Laws"
+    }
+  ],
+  "2027-11-10": [
+    {
+      "domain": "Statistics",
+      "topic": "Bayesian Networks"
+    }
+  ],
+  "2027-11-11": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Retrieval-Augmented Generation Concepts"
+    }
+  ],
+  "2027-11-12": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Privacy in Vision Systems"
+    }
+  ],
+  "2027-11-13": [
+    {
+      "domain": "Generative AI",
+      "topic": "Evaluation Frameworks for GenAI"
+    }
+  ],
+  "2027-11-15": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Practical RL Applications"
+    }
+  ],
+  "2027-11-16": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Data-Centric AI in DL"
+    }
+  ],
+  "2027-11-17": [
+    {
+      "domain": "Statistics",
+      "topic": "Hierarchical Models"
+    }
+  ],
+  "2027-11-18": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Evaluation Frameworks for LLMs"
+    }
+  ],
+  "2027-11-19": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Ethics in Computer Vision"
+    }
+  ],
+  "2027-11-20": [
+    {
+      "domain": "Generative AI",
+      "topic": "Advanced Prompting Paradigms"
+    }
+  ],
+  "2027-11-22": [
+    {
+      "domain": "Machine Learning",
+      "topic": "ML Pipeline Design"
+    }
+  ],
+  "2027-11-23": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Synthetic Data Generation"
+    }
+  ],
+  "2027-11-24": [
+    {
+      "domain": "Statistics",
+      "topic": "Survival Analysis Basics"
+    }
+  ],
+  "2027-11-25": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Data-Centric NLP"
+    }
+  ],
+  "2027-11-26": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Future Trends in Computer Vision"
+    }
+  ],
+  "2027-11-27": [
+    {
+      "domain": "Generative AI",
+      "topic": "Theoretical Foundations of Generative Modeling"
+    }
+  ],
+  "2027-11-29": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Deployment Basics"
+    }
+  ],
+  "2027-11-30": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Robustness Testing"
+    }
+  ],
+  "2027-12-01": [
+    {
+      "domain": "Statistics",
+      "topic": "Hazard Functions"
+    }
+  ],
+  "2027-12-02": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Robustness in NLP"
+    }
+  ],
+  "2027-12-03": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Advanced Topics in Vision Theory"
+    }
+  ],
+  "2027-12-04": [
+    {
+      "domain": "Generative AI",
+      "topic": "Information Theory in Generative AI"
+    }
+  ],
+  "2027-12-06": [
+    {
+      "domain": "Machine Learning",
+      "topic": "FastAPI for ML APIs"
+    }
+  ],
+  "2027-12-07": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Model Governance"
+    }
+  ],
+  "2027-12-08": [
+    {
+      "domain": "Statistics",
+      "topic": "Statistical Learning Theory Basics"
+    }
+  ],
+  "2027-12-09": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Fairness Metrics in NLP"
+    }
+  ],
+  "2027-12-10": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Research Directions in Computer Vision"
+    }
+  ],
+  "2027-12-11": [
+    {
+      "domain": "Generative AI",
+      "topic": "Optimization Challenges in LLMs"
+    }
+  ],
+  "2027-12-13": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Dockerizing ML Models"
+    }
+  ],
+  "2027-12-14": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Building End-to-End DL System"
+    }
+  ],
+  "2027-12-15": [
+    {
+      "domain": "Statistics",
+      "topic": "VC Dimension"
+    }
+  ],
+  "2027-12-16": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Statistical Learning Theory for NLP"
+    }
+  ],
+  "2027-12-17": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Statistical Foundations of Vision Models"
+    }
+  ],
+  "2027-12-18": [
+    {
+      "domain": "Generative AI",
+      "topic": "Energy Efficiency in Large Models"
+    }
+  ],
+  "2027-12-20": [
+    {
+      "domain": "Machine Learning",
+      "topic": "CI/CD for ML"
+    }
+  ],
+  "2027-12-21": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Future Trends in Deep Learning"
+    }
+  ],
+  "2027-12-22": [
+    {
+      "domain": "Statistics",
+      "topic": "PAC Learning"
+    }
+  ],
+  "2027-12-23": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Information Theory in NLP"
+    }
+  ],
+  "2027-12-24": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Optimization Techniques in Vision"
+    }
+  ],
+  "2027-12-25": [
+    {
+      "domain": "Generative AI",
+      "topic": "Sustainability in AI Systems"
+    }
+  ],
+  "2027-12-27": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Model Monitoring"
+    }
+  ],
+  "2027-12-28": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Deep Learning Interview Preparation"
+    }
+  ],
+  "2027-12-29": [
+    {
+      "domain": "Statistics",
+      "topic": "Bias-Variance Decomposition (Statistical View)"
+    }
+  ],
+  "2027-12-30": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Future Research Directions in NLP"
+    }
+  ],
+  "2027-12-31": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Evaluation Frameworks in Vision"
+    }
+  ],
+  "2028-01-01": [
+    {
+      "domain": "Generative AI",
+      "topic": "Future of Generative AI"
+    }
+  ],
+  "2028-01-03": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Drift Detection"
+    }
+  ],
+  "2028-01-04": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Deep Learning Case Studies"
+    }
+  ],
+  "2028-01-05": [
+    {
+      "domain": "Statistics",
+      "topic": "End-to-End Statistical Thinking in ML"
+    }
+  ],
+  "2028-01-06": [
+    {
+      "domain": "Natural Language Processing",
+      "topic": "Advanced Topics in NLP Theory"
+    }
+  ],
+  "2028-01-07": [
+    {
+      "domain": "Computer Vision",
+      "topic": "Theoretical Limits of Vision Models"
+    }
+  ],
+  "2028-01-08": [
+    {
+      "domain": "Generative AI",
+      "topic": "Research Frontiers in Foundation Models"
+    }
+  ],
+  "2028-01-10": [
+    {
+      "domain": "Machine Learning",
+      "topic": "A/B Testing in ML"
+    }
+  ],
+  "2028-01-11": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Open-Source DL Projects to Build"
+    }
+  ],
+  "2028-01-17": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Explainable ML in Production"
+    }
+  ],
+  "2028-01-18": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Scaling DL for Production"
+    }
+  ],
+  "2028-01-24": [
+    {
+      "domain": "Machine Learning",
+      "topic": "Building End-to-End ML System"
+    }
+  ],
+  "2028-01-25": [
+    {
+      "domain": "Deep Learning",
+      "topic": "Designing Production-Grade DL Pipelines"
+    }
+  ]
+}

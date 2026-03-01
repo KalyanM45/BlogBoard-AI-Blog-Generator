@@ -1,0 +1,390 @@
+[
+    {
+        "date": "2026-03-04",
+        "topic": "Introduction to Statistics for AI & ML"
+    },
+    {
+        "date": "2026-03-11",
+        "topic": "Types of Data in ML"
+    },
+    {
+        "date": "2026-03-18",
+        "topic": "Population vs Sample"
+    },
+    {
+        "date": "2026-03-25",
+        "topic": "Measures of Central Tendency"
+    },
+    {
+        "date": "2026-04-01",
+        "topic": "Measures of Dispersion"
+    },
+    {
+        "date": "2026-04-08",
+        "topic": "Probability Basics"
+    },
+    {
+        "date": "2026-04-15",
+        "topic": "Conditional Probability"
+    },
+    {
+        "date": "2026-04-22",
+        "topic": "Bayes Theorem"
+    },
+    {
+        "date": "2026-04-29",
+        "topic": "Random Variables"
+    },
+    {
+        "date": "2026-05-06",
+        "topic": "Probability Distributions Overview"
+    },
+    {
+        "date": "2026-05-13",
+        "topic": "Normal Distribution"
+    },
+    {
+        "date": "2026-05-20",
+        "topic": "Binomial Distribution"
+    },
+    {
+        "date": "2026-05-27",
+        "topic": "Poisson Distribution"
+    },
+    {
+        "date": "2026-06-03",
+        "topic": "Uniform Distribution"
+    },
+    {
+        "date": "2026-06-10",
+        "topic": "Central Limit Theorem"
+    },
+    {
+        "date": "2026-06-17",
+        "topic": "Law of Large Numbers"
+    },
+    {
+        "date": "2026-06-24",
+        "topic": "Sampling Techniques"
+    },
+    {
+        "date": "2026-07-01",
+        "topic": "Sampling Bias"
+    },
+    {
+        "date": "2026-07-08",
+        "topic": "Point Estimation"
+    },
+    {
+        "date": "2026-07-15",
+        "topic": "Confidence Intervals"
+    },
+    {
+        "date": "2026-07-22",
+        "topic": "Hypothesis Testing Basics"
+    },
+    {
+        "date": "2026-07-29",
+        "topic": "Null vs Alternative Hypothesis"
+    },
+    {
+        "date": "2026-08-05",
+        "topic": "p-value Explained"
+    },
+    {
+        "date": "2026-08-12",
+        "topic": "Type I & Type II Errors"
+    },
+    {
+        "date": "2026-08-19",
+        "topic": "Z-Test"
+    },
+    {
+        "date": "2026-08-26",
+        "topic": "T-Test"
+    },
+    {
+        "date": "2026-09-02",
+        "topic": "Chi-Square Test"
+    },
+    {
+        "date": "2026-09-09",
+        "topic": "ANOVA"
+    },
+    {
+        "date": "2026-09-16",
+        "topic": "Correlation vs Covariance"
+    },
+    {
+        "date": "2026-09-23",
+        "topic": "Pearson Correlation"
+    },
+    {
+        "date": "2026-09-30",
+        "topic": "Spearman Correlation"
+    },
+    {
+        "date": "2026-10-07",
+        "topic": "Regression Assumptions"
+    },
+    {
+        "date": "2026-10-14",
+        "topic": "Maximum Likelihood Estimation"
+    },
+    {
+        "date": "2026-10-21",
+        "topic": "Log-Likelihood in ML"
+    },
+    {
+        "date": "2026-10-28",
+        "topic": "Bias & Variance in Estimation"
+    },
+    {
+        "date": "2026-11-04",
+        "topic": "Variance Inflation Factor"
+    },
+    {
+        "date": "2026-11-11",
+        "topic": "Multicollinearity"
+    },
+    {
+        "date": "2026-11-18",
+        "topic": "Outlier Detection Methods"
+    },
+    {
+        "date": "2026-11-25",
+        "topic": "Skewness & Kurtosis"
+    },
+    {
+        "date": "2026-12-02",
+        "topic": "Feature Distribution Analysis"
+    },
+    {
+        "date": "2026-12-09",
+        "topic": "Data Normalization vs Standardization"
+    },
+    {
+        "date": "2026-12-16",
+        "topic": "Bootstrapping"
+    },
+    {
+        "date": "2026-12-23",
+        "topic": "Resampling Methods"
+    },
+    {
+        "date": "2026-12-30",
+        "topic": "Monte Carlo Simulation"
+    },
+    {
+        "date": "2027-01-06",
+        "topic": "A/B Testing Fundamentals"
+    },
+    {
+        "date": "2027-01-13",
+        "topic": "Statistical Power"
+    },
+    {
+        "date": "2027-01-20",
+        "topic": "Effect Size"
+    },
+    {
+        "date": "2027-01-27",
+        "topic": "Confounding Variables"
+    },
+    {
+        "date": "2027-02-03",
+        "topic": "Causal Inference Basics"
+    },
+    {
+        "date": "2027-02-10",
+        "topic": "Propensity Score Matching"
+    },
+    {
+        "date": "2027-02-17",
+        "topic": "Time Series Statistics Basics"
+    },
+    {
+        "date": "2027-02-24",
+        "topic": "Stationarity"
+    },
+    {
+        "date": "2027-03-03",
+        "topic": "Autocorrelation"
+    },
+    {
+        "date": "2027-03-10",
+        "topic": "Partial Autocorrelation"
+    },
+    {
+        "date": "2027-03-17",
+        "topic": "Heteroscedasticity"
+    },
+    {
+        "date": "2027-03-24",
+        "topic": "Cross Validation from Statistical View"
+    },
+    {
+        "date": "2027-03-31",
+        "topic": "ROC Curve Statistical Meaning"
+    },
+    {
+        "date": "2027-04-07",
+        "topic": "Precision-Recall Tradeoff"
+    },
+    {
+        "date": "2027-04-14",
+        "topic": "Calibration of Probabilities"
+    },
+    {
+        "date": "2027-04-21",
+        "topic": "Entropy in ML"
+    },
+    {
+        "date": "2027-04-28",
+        "topic": "Information Gain"
+    },
+    {
+        "date": "2027-05-05",
+        "topic": "Kullback-Leibler Divergence"
+    },
+    {
+        "date": "2027-05-12",
+        "topic": "Jensen-Shannon Divergence"
+    },
+    {
+        "date": "2027-05-19",
+        "topic": "Cross-Entropy Loss"
+    },
+    {
+        "date": "2027-05-26",
+        "topic": "Logistic Regression Statistical View"
+    },
+    {
+        "date": "2027-06-02",
+        "topic": "Regularization from Bayesian View"
+    },
+    {
+        "date": "2027-06-09",
+        "topic": "Prior & Posterior Distributions"
+    },
+    {
+        "date": "2027-06-16",
+        "topic": "MAP vs MLE"
+    },
+    {
+        "date": "2027-06-23",
+        "topic": "Expectation & Variance"
+    },
+    {
+        "date": "2027-06-30",
+        "topic": "Covariance Matrix"
+    },
+    {
+        "date": "2027-07-07",
+        "topic": "Eigenvalues & Eigenvectors in ML"
+    },
+    {
+        "date": "2027-07-14",
+        "topic": "Singular Value Decomposition"
+    },
+    {
+        "date": "2027-07-21",
+        "topic": "Dimensionality Reduction Statistical View"
+    },
+    {
+        "date": "2027-07-28",
+        "topic": "Gaussian Mixture Models Theory"
+    },
+    {
+        "date": "2027-08-04",
+        "topic": "Expectation Maximization Algorithm"
+    },
+    {
+        "date": "2027-08-11",
+        "topic": "Markov Chains Basics"
+    },
+    {
+        "date": "2027-08-18",
+        "topic": "Hidden Markov Models"
+    },
+    {
+        "date": "2027-08-25",
+        "topic": "Model Selection Criteria (AIC/BIC)"
+    },
+    {
+        "date": "2027-09-01",
+        "topic": "Likelihood Ratio Test"
+    },
+    {
+        "date": "2027-09-08",
+        "topic": "Non-Parametric Statistics"
+    },
+    {
+        "date": "2027-09-15",
+        "topic": "Kernel Density Estimation"
+    },
+    {
+        "date": "2027-09-22",
+        "topic": "Robust Statistics"
+    },
+    {
+        "date": "2027-09-29",
+        "topic": "Distribution Shift"
+    },
+    {
+        "date": "2027-10-06",
+        "topic": "Concept Drift"
+    },
+    {
+        "date": "2027-10-13",
+        "topic": "Statistical Monitoring in Production"
+    },
+    {
+        "date": "2027-10-20",
+        "topic": "Fairness Metrics in ML"
+    },
+    {
+        "date": "2027-10-27",
+        "topic": "Uncertainty Quantification"
+    },
+    {
+        "date": "2027-11-03",
+        "topic": "Prediction Intervals"
+    },
+    {
+        "date": "2027-11-10",
+        "topic": "Bayesian Networks"
+    },
+    {
+        "date": "2027-11-17",
+        "topic": "Hierarchical Models"
+    },
+    {
+        "date": "2027-11-24",
+        "topic": "Survival Analysis Basics"
+    },
+    {
+        "date": "2027-12-01",
+        "topic": "Hazard Functions"
+    },
+    {
+        "date": "2027-12-08",
+        "topic": "Statistical Learning Theory Basics"
+    },
+    {
+        "date": "2027-12-15",
+        "topic": "VC Dimension"
+    },
+    {
+        "date": "2027-12-22",
+        "topic": "PAC Learning"
+    },
+    {
+        "date": "2027-12-29",
+        "topic": "Bias-Variance Decomposition (Statistical View)"
+    },
+    {
+        "date": "2028-01-05",
+        "topic": "End-to-End Statistical Thinking in ML"
+    }
+]

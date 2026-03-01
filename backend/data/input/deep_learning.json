@@ -1,0 +1,402 @@
+[
+    {
+        "date": "2026-03-03",
+        "topic": "Introduction to Deep Learning"
+    },
+    {
+        "date": "2026-03-10",
+        "topic": "Neural Network Fundamentals"
+    },
+    {
+        "date": "2026-03-17",
+        "topic": "Perceptron Explained"
+    },
+    {
+        "date": "2026-03-24",
+        "topic": "Forward Propagation"
+    },
+    {
+        "date": "2026-03-31",
+        "topic": "Backpropagation Intuition"
+    },
+    {
+        "date": "2026-04-07",
+        "topic": "Loss Functions in Deep Learning"
+    },
+    {
+        "date": "2026-04-14",
+        "topic": "Activation Functions Overview"
+    },
+    {
+        "date": "2026-04-21",
+        "topic": "Gradient Descent Variants"
+    },
+    {
+        "date": "2026-04-28",
+        "topic": "Optimizers: SGD vs Adam"
+    },
+    {
+        "date": "2026-05-05",
+        "topic": "Weight Initialization Techniques"
+    },
+    {
+        "date": "2026-05-12",
+        "topic": "Vanishing & Exploding Gradients"
+    },
+    {
+        "date": "2026-05-19",
+        "topic": "Batch Normalization"
+    },
+    {
+        "date": "2026-05-26",
+        "topic": "Dropout Regularization"
+    },
+    {
+        "date": "2026-06-02",
+        "topic": "Early Stopping"
+    },
+    {
+        "date": "2026-06-09",
+        "topic": "Hyperparameter Tuning in DL"
+    },
+    {
+        "date": "2026-06-16",
+        "topic": "Building NN with PyTorch"
+    },
+    {
+        "date": "2026-06-23",
+        "topic": "Building NN with TensorFlow"
+    },
+    {
+        "date": "2026-06-30",
+        "topic": "Model Training Best Practices"
+    },
+    {
+        "date": "2026-07-07",
+        "topic": "Model Evaluation in DL"
+    },
+    {
+        "date": "2026-07-14",
+        "topic": "Saving & Loading Models"
+    },
+    {
+        "date": "2026-07-21",
+        "topic": "Convolutional Neural Networks Basics"
+    },
+    {
+        "date": "2026-07-28",
+        "topic": "CNN Architectures Overview"
+    },
+    {
+        "date": "2026-08-04",
+        "topic": "Pooling Layers Explained"
+    },
+    {
+        "date": "2026-08-11",
+        "topic": "Transfer Learning in CNNs"
+    },
+    {
+        "date": "2026-08-18",
+        "topic": "Fine-Tuning Pretrained Models"
+    },
+    {
+        "date": "2026-08-25",
+        "topic": "Residual Networks (ResNet)"
+    },
+    {
+        "date": "2026-09-01",
+        "topic": "DenseNet Overview"
+    },
+    {
+        "date": "2026-09-08",
+        "topic": "EfficientNet Overview"
+    },
+    {
+        "date": "2026-09-15",
+        "topic": "Recurrent Neural Networks Basics"
+    },
+    {
+        "date": "2026-09-22",
+        "topic": "LSTM Networks"
+    },
+    {
+        "date": "2026-09-29",
+        "topic": "GRU Networks"
+    },
+    {
+        "date": "2026-10-06",
+        "topic": "Sequence Modeling Concepts"
+    },
+    {
+        "date": "2026-10-13",
+        "topic": "Bidirectional RNNs"
+    },
+    {
+        "date": "2026-10-20",
+        "topic": "Attention Mechanism"
+    },
+    {
+        "date": "2026-10-27",
+        "topic": "Transformers Architecture"
+    },
+    {
+        "date": "2026-11-03",
+        "topic": "Self-Attention Explained"
+    },
+    {
+        "date": "2026-11-10",
+        "topic": "Positional Encoding"
+    },
+    {
+        "date": "2026-11-17",
+        "topic": "Encoder-Decoder Models"
+    },
+    {
+        "date": "2026-11-24",
+        "topic": "BERT Architecture Overview"
+    },
+    {
+        "date": "2026-12-01",
+        "topic": "GPT Architecture Overview"
+    },
+    {
+        "date": "2026-12-08",
+        "topic": "Fine-Tuning Transformer Models"
+    },
+    {
+        "date": "2026-12-15",
+        "topic": "Diffusion Models Overview"
+    },
+    {
+        "date": "2026-12-22",
+        "topic": "GANs: Generator vs Discriminator"
+    },
+    {
+        "date": "2026-12-29",
+        "topic": "Variational Autoencoders"
+    },
+    {
+        "date": "2027-01-05",
+        "topic": "Autoencoders in Practice"
+    },
+    {
+        "date": "2027-01-12",
+        "topic": "Multimodal Deep Learning"
+    },
+    {
+        "date": "2027-01-19",
+        "topic": "Graph Neural Networks"
+    },
+    {
+        "date": "2027-01-26",
+        "topic": "Reinforcement Learning with Deep Networks"
+    },
+    {
+        "date": "2027-02-02",
+        "topic": "Deep Q Networks"
+    },
+    {
+        "date": "2027-02-09",
+        "topic": "Policy Gradient Methods"
+    },
+    {
+        "date": "2027-02-16",
+        "topic": "Model Compression Techniques"
+    },
+    {
+        "date": "2027-02-23",
+        "topic": "Quantization in DL"
+    },
+    {
+        "date": "2027-03-02",
+        "topic": "Pruning Neural Networks"
+    },
+    {
+        "date": "2027-03-09",
+        "topic": "Knowledge Distillation"
+    },
+    {
+        "date": "2027-03-16",
+        "topic": "Distributed Training"
+    },
+    {
+        "date": "2027-03-23",
+        "topic": "Mixed Precision Training"
+    },
+    {
+        "date": "2027-03-30",
+        "topic": "Handling Large-Scale Data"
+    },
+    {
+        "date": "2027-04-06",
+        "topic": "Experiment Tracking in DL"
+    },
+    {
+        "date": "2027-04-13",
+        "topic": "Model Deployment for DL"
+    },
+    {
+        "date": "2027-04-20",
+        "topic": "Serving Models with FastAPI"
+    },
+    {
+        "date": "2027-04-27",
+        "topic": "Dockerizing DL Models"
+    },
+    {
+        "date": "2027-05-04",
+        "topic": "Monitoring DL Models"
+    },
+    {
+        "date": "2027-05-11",
+        "topic": "Drift Detection in DL"
+    },
+    {
+        "date": "2027-05-18",
+        "topic": "Explainability in DL"
+    },
+    {
+        "date": "2027-05-25",
+        "topic": "SHAP for Deep Models"
+    },
+    {
+        "date": "2027-06-01",
+        "topic": "LIME for Deep Models"
+    },
+    {
+        "date": "2027-06-08",
+        "topic": "Adversarial Attacks in DL"
+    },
+    {
+        "date": "2027-06-15",
+        "topic": "Adversarial Defense Techniques"
+    },
+    {
+        "date": "2027-06-22",
+        "topic": "Ethics in Deep Learning"
+    },
+    {
+        "date": "2027-06-29",
+        "topic": "Bias in Deep Models"
+    },
+    {
+        "date": "2027-07-06",
+        "topic": "Energy Efficiency in DL"
+    },
+    {
+        "date": "2027-07-13",
+        "topic": "Edge Deployment of DL Models"
+    },
+    {
+        "date": "2027-07-20",
+        "topic": "ONNX for Model Portability"
+    },
+    {
+        "date": "2027-07-27",
+        "topic": "TensorRT Optimization"
+    },
+    {
+        "date": "2027-08-03",
+        "topic": "TorchScript Overview"
+    },
+    {
+        "date": "2027-08-10",
+        "topic": "Model Versioning Strategies"
+    },
+    {
+        "date": "2027-08-17",
+        "topic": "A/B Testing DL Models"
+    },
+    {
+        "date": "2027-08-24",
+        "topic": "Hyperparameter Search with Optuna"
+    },
+    {
+        "date": "2027-08-31",
+        "topic": "AutoML for Deep Learning"
+    },
+    {
+        "date": "2027-09-07",
+        "topic": "Curriculum Learning"
+    },
+    {
+        "date": "2027-09-14",
+        "topic": "Self-Supervised Learning"
+    },
+    {
+        "date": "2027-09-21",
+        "topic": "Contrastive Learning"
+    },
+    {
+        "date": "2027-09-28",
+        "topic": "Few-Shot Learning"
+    },
+    {
+        "date": "2027-10-05",
+        "topic": "Zero-Shot Learning"
+    },
+    {
+        "date": "2027-10-12",
+        "topic": "Large-Scale Model Training"
+    },
+    {
+        "date": "2027-10-19",
+        "topic": "Parameter-Efficient Fine-Tuning"
+    },
+    {
+        "date": "2027-10-26",
+        "topic": "LoRA Explained"
+    },
+    {
+        "date": "2027-11-02",
+        "topic": "Prompt Tuning Basics"
+    },
+    {
+        "date": "2027-11-09",
+        "topic": "Model Scaling Laws"
+    },
+    {
+        "date": "2027-11-16",
+        "topic": "Data-Centric AI in DL"
+    },
+    {
+        "date": "2027-11-23",
+        "topic": "Synthetic Data Generation"
+    },
+    {
+        "date": "2027-11-30",
+        "topic": "Robustness Testing"
+    },
+    {
+        "date": "2027-12-07",
+        "topic": "Model Governance"
+    },
+    {
+        "date": "2027-12-14",
+        "topic": "Building End-to-End DL System"
+    },
+    {
+        "date": "2027-12-21",
+        "topic": "Future Trends in Deep Learning"
+    },
+    {
+        "date": "2027-12-28",
+        "topic": "Deep Learning Interview Preparation"
+    },
+    {
+        "date": "2028-01-04",
+        "topic": "Deep Learning Case Studies"
+    },
+    {
+        "date": "2028-01-11",
+        "topic": "Open-Source DL Projects to Build"
+    },
+    {
+        "date": "2028-01-18",
+        "topic": "Scaling DL for Production"
+    },
+    {
+        "date": "2028-01-25",
+        "topic": "Designing Production-Grade DL Pipelines"
+    }
+]

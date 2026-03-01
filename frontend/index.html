@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlogBoard — AI & ML Insights</title>
+  <meta name="description"
+    content="A professional blog exploring Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, and the latest AI News." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-overlay"></div>
+    <canvas id="particleCanvas"></canvas>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="category.html#cat=ml" class="nav-link">ML</a></li>
+        <li><a href="category.html#cat=dl" class="nav-link">DL</a></li>
+        <li><a href="category.html#cat=nlp" class="nav-link">NLP</a></li>
+        <li><a href="category.html#cat=cv" class="nav-link">CV</a></li>
+        <li><a href="category.html#cat=genai" class="nav-link">Gen AI</a></li>
+        <li><a href="category.html#cat=ainews" class="nav-link">AI News</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Actively Publishing</span>
+      </div>
+      <h1 class="hero-title">
+        Explore the Frontier of
+        <span class="gradient-text">Artificial Intelligence</span>
+      </h1>
+      <p class="hero-sub">
+        In-depth articles on Machine Learning, Deep Learning, NLP, Computer Vision,
+        Generative AI, and the latest breakthroughs shaping the future.
+      </p>
+      <div class="hero-cta">
+        <a href="#categories" class="btn-primary">Browse Topics</a>
+        <a href="category.html#cat=ainews" class="btn-ghost">Latest AI News →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat" id="totalBlogs">
+          <span class="stat-num" data-target="0">0</span>
+          <span class="stat-label">Articles</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Topics</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Knowledge</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="neural-net" id="neuralNet"></div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section" id="categories">
+    <div class="section-header">
+      <span class="section-tag">Domains</span>
+      <h2 class="section-title">Choose Your Field</h2>
+      <p class="section-sub">Select a domain to explore curated articles crafted for depth and clarity.</p>
+    </div>
+    <div class="categories-grid">
+      <a href="category.html#cat=ml" class="cat-card" data-cat="ml">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2" />
+            <path d="M16 24 L24 16 L32 24 L24 32 Z" stroke="currentColor" stroke-width="2" fill="none" />
+            <circle cx="24" cy="24" r="3" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">ML</span>
+          <h3 class="cat-title">Machine Learning</h3>
+          <p class="cat-desc">Algorithms, statistics, supervised & unsupervised learning, model evaluation and more.</p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+
+      <a href="category.html#cat=dl" class="cat-card" data-cat="dl">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="36" cy="12" r="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="12" cy="36" r="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="36" cy="36" r="4" stroke="currentColor" stroke-width="2" />
+            <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2" />
+            <line x1="16" y1="12" x2="20" y2="22" stroke="currentColor" stroke-width="1.5" />
+            <line x1="32" y1="12" x2="28" y2="22" stroke="currentColor" stroke-width="1.5" />
+            <line x1="16" y1="36" x2="20" y2="26" stroke="currentColor" stroke-width="1.5" />
+            <line x1="32" y1="36" x2="28" y2="26" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">DL</span>
+          <h3 class="cat-title">Deep Learning</h3>
+          <p class="cat-desc">Neural networks, CNNs, RNNs, transformers, backpropagation, and architecture deep dives.
+          </p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+
+      <a href="category.html#cat=nlp" class="cat-card" data-cat="nlp">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <rect x="8" y="14" width="32" height="5" rx="2.5" stroke="currentColor" stroke-width="2" />
+            <rect x="8" y="24" width="24" height="5" rx="2.5" stroke="currentColor" stroke-width="2" />
+            <rect x="8" y="34" width="16" height="5" rx="2.5" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">NLP</span>
+          <h3 class="cat-title">Natural Language Processing</h3>
+          <p class="cat-desc">Tokenization, embeddings, LLMs, BERT, GPT, sentiment analysis and text generation.</p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+
+      <a href="category.html#cat=cv" class="cat-card" data-cat="cv">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2" />
+            <circle cx="24" cy="24" r="4" fill="currentColor" />
+            <path d="M24 8 L24 14 M24 34 L24 40 M8 24 L14 24 M34 24 L40 24" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">CV</span>
+          <h3 class="cat-title">Computer Vision</h3>
+          <p class="cat-desc">Image classification, object detection, segmentation, GANs, YOLO, and vision transformers.
+          </p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+
+      <a href="category.html#cat=genai" class="cat-card" data-cat="genai">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <path d="M24 6 L30 18 L44 18 L33 26 L37 40 L24 32 L11 40 L15 26 L4 18 L18 18 Z" stroke="currentColor"
+              stroke-width="2" fill="none" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">Gen AI</span>
+          <h3 class="cat-title">Generative AI</h3>
+          <p class="cat-desc">Diffusion models, LLMs, prompt engineering, RAG, agents, and creative AI applications.</p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+
+      <a href="category.html#cat=ainews" class="cat-card" data-cat="ainews">
+        <div class="cat-icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none" class="cat-icon">
+            <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2" />
+            <line x1="6" y1="18" x2="42" y2="18" stroke="currentColor" stroke-width="2" />
+            <line x1="20" y1="10" x2="20" y2="38" stroke="currentColor" stroke-width="2" />
+            <rect x="24" y="22" width="12" height="5" rx="1" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </div>
+        <div class="cat-content">
+          <span class="cat-tag">AI News</span>
+          <h3 class="cat-title">AI News</h3>
+          <p class="cat-desc">Latest research papers, industry developments, model releases, and AI policy updates.</p>
+        </div>
+        <div class="cat-arrow">→</div>
+        <div class="cat-glow"></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="recent-section">
+    <div class="section-header">
+      <span class="section-tag">Recent</span>
+      <h2 class="section-title">Latest Articles</h2>
+    </div>
+    <div class="recent-grid" id="recentPosts">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Loading posts…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+      </div>
+      <p class="footer-sub">Built for those who learn, think, and build.</p>
+      <div class="footer-cats">
+        <a href="category.html#cat=ml">ML</a>
+        <a href="category.html#cat=dl">DL</a>
+        <a href="category.html#cat=nlp">NLP</a>
+        <a href="category.html#cat=cv">CV</a>
+        <a href="category.html#cat=genai">Gen AI</a>
+        <a href="category.html#cat=ainews">AI News</a>
+      </div>
+      <p class="footer-copy">© 2026 BlogBoard. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/blogs-data.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

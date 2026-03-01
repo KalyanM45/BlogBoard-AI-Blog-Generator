@@ -1,0 +1,17 @@
+[
+    {
+        "id": "blogs/cv/yolo-v8-guide.md",
+        "category": "cv",
+        "title": "YOLOv8 Complete Guide: Object Detection in Production",
+        "description": "A practical guide to YOLOv8 — installation, inference, custom training, and exporting to ONNX and TFLite for deployment.",
+        "date": "2026-01-21",
+        "tags": [
+            "yolov8",
+            "object-detection",
+            "computer-vision",
+            "pytorch"
+        ],
+        "readTime": "12 min",
+        "file": "blogs/cv/yolo-v8-guide.md"
+    }
+]

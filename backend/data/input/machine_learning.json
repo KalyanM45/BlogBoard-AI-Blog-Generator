@@ -1,0 +1,402 @@
+[
+    {
+        "date": "2026-03-02",
+        "topic": "What is Machine Learning?"
+    },
+    {
+        "date": "2026-03-09",
+        "topic": "ML Project Lifecycle"
+    },
+    {
+        "date": "2026-03-16",
+        "topic": "Types of ML Algorithms"
+    },
+    {
+        "date": "2026-03-23",
+        "topic": "Supervised vs Unsupervised"
+    },
+    {
+        "date": "2026-03-30",
+        "topic": "Bias vs Variance"
+    },
+    {
+        "date": "2026-04-06",
+        "topic": "Overfitting & Underfitting"
+    },
+    {
+        "date": "2026-04-13",
+        "topic": "Train/Test Split"
+    },
+    {
+        "date": "2026-04-20",
+        "topic": "Cross Validation"
+    },
+    {
+        "date": "2026-04-27",
+        "topic": "Feature Engineering Basics"
+    },
+    {
+        "date": "2026-05-04",
+        "topic": "Data Cleaning in ML"
+    },
+    {
+        "date": "2026-05-11",
+        "topic": "Handling Missing Values"
+    },
+    {
+        "date": "2026-05-18",
+        "topic": "Categorical Encoding Techniques"
+    },
+    {
+        "date": "2026-05-25",
+        "topic": "Feature Scaling Methods"
+    },
+    {
+        "date": "2026-06-01",
+        "topic": "Handling Outliers"
+    },
+    {
+        "date": "2026-06-08",
+        "topic": "Data Leakage Explained"
+    },
+    {
+        "date": "2026-06-15",
+        "topic": "Linear Regression"
+    },
+    {
+        "date": "2026-06-22",
+        "topic": "Polynomial Regression"
+    },
+    {
+        "date": "2026-06-29",
+        "topic": "Ridge Regression"
+    },
+    {
+        "date": "2026-07-06",
+        "topic": "Lasso Regression"
+    },
+    {
+        "date": "2026-07-13",
+        "topic": "ElasticNet"
+    },
+    {
+        "date": "2026-07-20",
+        "topic": "kNN Regression"
+    },
+    {
+        "date": "2026-07-27",
+        "topic": "Decision Tree Regression"
+    },
+    {
+        "date": "2026-08-03",
+        "topic": "Random Forest Regression"
+    },
+    {
+        "date": "2026-08-10",
+        "topic": "Gradient Boosting Regression"
+    },
+    {
+        "date": "2026-08-17",
+        "topic": "XGBoost Regression"
+    },
+    {
+        "date": "2026-08-24",
+        "topic": "LightGBM Regression"
+    },
+    {
+        "date": "2026-08-31",
+        "topic": "CatBoost Regression"
+    },
+    {
+        "date": "2026-09-07",
+        "topic": "Model Evaluation for Regression"
+    },
+    {
+        "date": "2026-09-14",
+        "topic": "Feature Importance in Regression"
+    },
+    {
+        "date": "2026-09-21",
+        "topic": "Regularization in Practice"
+    },
+    {
+        "date": "2026-09-28",
+        "topic": "Logistic Regression"
+    },
+    {
+        "date": "2026-10-05",
+        "topic": "kNN Classification"
+    },
+    {
+        "date": "2026-10-12",
+        "topic": "Decision Tree Classifier"
+    },
+    {
+        "date": "2026-10-19",
+        "topic": "Random Forest Classifier"
+    },
+    {
+        "date": "2026-10-26",
+        "topic": "Gradient Boosting Classifier"
+    },
+    {
+        "date": "2026-11-02",
+        "topic": "XGBoost Classifier"
+    },
+    {
+        "date": "2026-11-09",
+        "topic": "LightGBM Classifier"
+    },
+    {
+        "date": "2026-11-16",
+        "topic": "CatBoost Classifier"
+    },
+    {
+        "date": "2026-11-23",
+        "topic": "Support Vector Machines"
+    },
+    {
+        "date": "2026-11-30",
+        "topic": "Naive Bayes"
+    },
+    {
+        "date": "2026-12-07",
+        "topic": "Multiclass Classification"
+    },
+    {
+        "date": "2026-12-14",
+        "topic": "Multi-label Classification"
+    },
+    {
+        "date": "2026-12-21",
+        "topic": "Handling Imbalanced Data"
+    },
+    {
+        "date": "2026-12-28",
+        "topic": "Evaluation Metrics for Classification"
+    },
+    {
+        "date": "2027-01-04",
+        "topic": "Confusion Matrix Deep Dive"
+    },
+    {
+        "date": "2027-01-11",
+        "topic": "ROC & PR Curves"
+    },
+    {
+        "date": "2027-01-18",
+        "topic": "Threshold Tuning"
+    },
+    {
+        "date": "2027-01-25",
+        "topic": "Ensemble Learning Basics"
+    },
+    {
+        "date": "2027-02-01",
+        "topic": "Stacking & Blending"
+    },
+    {
+        "date": "2027-02-08",
+        "topic": "Model Interpretability"
+    },
+    {
+        "date": "2027-02-15",
+        "topic": "K-Means Clustering"
+    },
+    {
+        "date": "2027-02-22",
+        "topic": "Hierarchical Clustering"
+    },
+    {
+        "date": "2027-03-01",
+        "topic": "DBSCAN"
+    },
+    {
+        "date": "2027-03-08",
+        "topic": "Gaussian Mixture Models"
+    },
+    {
+        "date": "2027-03-15",
+        "topic": "Clustering Evaluation"
+    },
+    {
+        "date": "2027-03-22",
+        "topic": "Dimensionality Reduction in ML"
+    },
+    {
+        "date": "2027-03-29",
+        "topic": "PCA for ML Pipelines"
+    },
+    {
+        "date": "2027-04-05",
+        "topic": "Feature Selection Techniques"
+    },
+    {
+        "date": "2027-04-12",
+        "topic": "Anomaly Detection"
+    },
+    {
+        "date": "2027-04-19",
+        "topic": "Isolation Forest"
+    },
+    {
+        "date": "2027-04-26",
+        "topic": "One-Class SVM"
+    },
+    {
+        "date": "2027-05-03",
+        "topic": "Association Rule Mining"
+    },
+    {
+        "date": "2027-05-10",
+        "topic": "Apriori Algorithm"
+    },
+    {
+        "date": "2027-05-17",
+        "topic": "Market Basket Analysis"
+    },
+    {
+        "date": "2027-05-24",
+        "topic": "Customer Segmentation"
+    },
+    {
+        "date": "2027-05-31",
+        "topic": "Hyperparameter Tuning"
+    },
+    {
+        "date": "2027-06-07",
+        "topic": "Grid Search"
+    },
+    {
+        "date": "2027-06-14",
+        "topic": "Random Search"
+    },
+    {
+        "date": "2027-06-21",
+        "topic": "Bayesian Optimization"
+    },
+    {
+        "date": "2027-06-28",
+        "topic": "Early Stopping"
+    },
+    {
+        "date": "2027-07-05",
+        "topic": "Cross-Validation Strategies"
+    },
+    {
+        "date": "2027-07-12",
+        "topic": "Feature Selection with Models"
+    },
+    {
+        "date": "2027-07-19",
+        "topic": "Handling High Cardinality"
+    },
+    {
+        "date": "2027-07-26",
+        "topic": "Handling Large Datasets"
+    },
+    {
+        "date": "2027-08-02",
+        "topic": "Model Calibration"
+    },
+    {
+        "date": "2027-08-09",
+        "topic": "Cost-Sensitive Learning"
+    },
+    {
+        "date": "2027-08-16",
+        "topic": "Handling Noisy Data"
+    },
+    {
+        "date": "2027-08-23",
+        "topic": "Robust ML Techniques"
+    },
+    {
+        "date": "2027-08-30",
+        "topic": "Error Analysis in ML"
+    },
+    {
+        "date": "2027-09-06",
+        "topic": "Model Comparison Strategies"
+    },
+    {
+        "date": "2027-09-13",
+        "topic": "Introduction to Time Series in ML"
+    },
+    {
+        "date": "2027-09-20",
+        "topic": "Feature Engineering for Time Series"
+    },
+    {
+        "date": "2027-09-27",
+        "topic": "Rolling Window Validation"
+    },
+    {
+        "date": "2027-10-04",
+        "topic": "Tree-Based Models for Time Series"
+    },
+    {
+        "date": "2027-10-11",
+        "topic": "Forecasting with ML Models"
+    },
+    {
+        "date": "2027-10-18",
+        "topic": "Reinforcement Learning Basics"
+    },
+    {
+        "date": "2027-10-25",
+        "topic": "Markov Decision Process"
+    },
+    {
+        "date": "2027-11-01",
+        "topic": "Q-Learning"
+    },
+    {
+        "date": "2027-11-08",
+        "topic": "Policy-Based Methods"
+    },
+    {
+        "date": "2027-11-15",
+        "topic": "Practical RL Applications"
+    },
+    {
+        "date": "2027-11-22",
+        "topic": "ML Pipeline Design"
+    },
+    {
+        "date": "2027-11-29",
+        "topic": "Model Deployment Basics"
+    },
+    {
+        "date": "2027-12-06",
+        "topic": "FastAPI for ML APIs"
+    },
+    {
+        "date": "2027-12-13",
+        "topic": "Dockerizing ML Models"
+    },
+    {
+        "date": "2027-12-20",
+        "topic": "CI/CD for ML"
+    },
+    {
+        "date": "2027-12-27",
+        "topic": "Model Monitoring"
+    },
+    {
+        "date": "2028-01-03",
+        "topic": "Drift Detection"
+    },
+    {
+        "date": "2028-01-10",
+        "topic": "A/B Testing in ML"
+    },
+    {
+        "date": "2028-01-17",
+        "topic": "Explainable ML in Production"
+    },
+    {
+        "date": "2028-01-24",
+        "topic": "Building End-to-End ML System"
+    }
+]

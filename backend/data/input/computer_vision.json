@@ -1,0 +1,390 @@
+[
+    {
+        "date": "2026-03-06",
+        "topic": "Introduction to Computer Vision"
+    },
+    {
+        "date": "2026-03-13",
+        "topic": "Digital Image Fundamentals"
+    },
+    {
+        "date": "2026-03-20",
+        "topic": "Image Representation and Color Spaces"
+    },
+    {
+        "date": "2026-03-27",
+        "topic": "Image Filtering and Convolution"
+    },
+    {
+        "date": "2026-04-03",
+        "topic": "Edge Detection Techniques"
+    },
+    {
+        "date": "2026-04-10",
+        "topic": "Histogram Equalization"
+    },
+    {
+        "date": "2026-04-17",
+        "topic": "Image Thresholding"
+    },
+    {
+        "date": "2026-04-24",
+        "topic": "Morphological Operations"
+    },
+    {
+        "date": "2026-05-01",
+        "topic": "Feature Detection and Description"
+    },
+    {
+        "date": "2026-05-08",
+        "topic": "SIFT and SURF"
+    },
+    {
+        "date": "2026-05-15",
+        "topic": "ORB Features"
+    },
+    {
+        "date": "2026-05-22",
+        "topic": "Image Segmentation Basics"
+    },
+    {
+        "date": "2026-05-29",
+        "topic": "K-Means for Image Segmentation"
+    },
+    {
+        "date": "2026-06-05",
+        "topic": "Hough Transform"
+    },
+    {
+        "date": "2026-06-12",
+        "topic": "Template Matching"
+    },
+    {
+        "date": "2026-06-19",
+        "topic": "Optical Flow"
+    },
+    {
+        "date": "2026-06-26",
+        "topic": "Object Detection Fundamentals"
+    },
+    {
+        "date": "2026-07-03",
+        "topic": "Region-Based CNN"
+    },
+    {
+        "date": "2026-07-10",
+        "topic": "Fast and Faster R-CNN"
+    },
+    {
+        "date": "2026-07-17",
+        "topic": "YOLO Architecture"
+    },
+    {
+        "date": "2026-07-24",
+        "topic": "SSD Object Detection"
+    },
+    {
+        "date": "2026-07-31",
+        "topic": "Image Classification with CNNs"
+    },
+    {
+        "date": "2026-08-07",
+        "topic": "Transfer Learning in Vision"
+    },
+    {
+        "date": "2026-08-14",
+        "topic": "ResNet Architecture"
+    },
+    {
+        "date": "2026-08-21",
+        "topic": "DenseNet Overview"
+    },
+    {
+        "date": "2026-08-28",
+        "topic": "EfficientNet"
+    },
+    {
+        "date": "2026-09-04",
+        "topic": "Vision Transformers"
+    },
+    {
+        "date": "2026-09-11",
+        "topic": "Self-Attention in Vision"
+    },
+    {
+        "date": "2026-09-18",
+        "topic": "Semantic Segmentation"
+    },
+    {
+        "date": "2026-09-25",
+        "topic": "U-Net Architecture"
+    },
+    {
+        "date": "2026-10-02",
+        "topic": "Instance Segmentation"
+    },
+    {
+        "date": "2026-10-09",
+        "topic": "Mask R-CNN"
+    },
+    {
+        "date": "2026-10-16",
+        "topic": "Pose Estimation"
+    },
+    {
+        "date": "2026-10-23",
+        "topic": "3D Computer Vision Basics"
+    },
+    {
+        "date": "2026-10-30",
+        "topic": "Stereo Vision"
+    },
+    {
+        "date": "2026-11-06",
+        "topic": "Structure from Motion"
+    },
+    {
+        "date": "2026-11-13",
+        "topic": "Image Augmentation Techniques"
+    },
+    {
+        "date": "2026-11-20",
+        "topic": "Data Annotation in Vision"
+    },
+    {
+        "date": "2026-11-27",
+        "topic": "Evaluation Metrics in Vision"
+    },
+    {
+        "date": "2026-12-04",
+        "topic": "Intersection over Union"
+    },
+    {
+        "date": "2026-12-11",
+        "topic": "Mean Average Precision"
+    },
+    {
+        "date": "2026-12-18",
+        "topic": "Adversarial Attacks in Vision"
+    },
+    {
+        "date": "2026-12-25",
+        "topic": "Adversarial Defense Methods"
+    },
+    {
+        "date": "2027-01-01",
+        "topic": "Explainability in Vision Models"
+    },
+    {
+        "date": "2027-01-08",
+        "topic": "Grad-CAM"
+    },
+    {
+        "date": "2027-01-15",
+        "topic": "Model Compression in Vision"
+    },
+    {
+        "date": "2027-01-22",
+        "topic": "Quantization in Vision Models"
+    },
+    {
+        "date": "2027-01-29",
+        "topic": "Pruning CNNs"
+    },
+    {
+        "date": "2027-02-05",
+        "topic": "Knowledge Distillation in Vision"
+    },
+    {
+        "date": "2027-02-12",
+        "topic": "Self-Supervised Learning in Vision"
+    },
+    {
+        "date": "2027-02-19",
+        "topic": "Contrastive Learning in Vision"
+    },
+    {
+        "date": "2027-02-26",
+        "topic": "Few-Shot Learning in Vision"
+    },
+    {
+        "date": "2027-03-05",
+        "topic": "Zero-Shot Learning in Vision"
+    },
+    {
+        "date": "2027-03-12",
+        "topic": "Domain Adaptation in Vision"
+    },
+    {
+        "date": "2027-03-19",
+        "topic": "Federated Learning in Vision"
+    },
+    {
+        "date": "2027-03-26",
+        "topic": "Edge AI for Vision"
+    },
+    {
+        "date": "2027-04-02",
+        "topic": "ONNX for Vision Models"
+    },
+    {
+        "date": "2027-04-09",
+        "topic": "TensorRT Optimization"
+    },
+    {
+        "date": "2027-04-16",
+        "topic": "Video Analysis Basics"
+    },
+    {
+        "date": "2027-04-23",
+        "topic": "Action Recognition"
+    },
+    {
+        "date": "2027-04-30",
+        "topic": "Object Tracking"
+    },
+    {
+        "date": "2027-05-07",
+        "topic": "Multi-Object Tracking"
+    },
+    {
+        "date": "2027-05-14",
+        "topic": "Scene Understanding"
+    },
+    {
+        "date": "2027-05-21",
+        "topic": "Anomaly Detection in Images"
+    },
+    {
+        "date": "2027-05-28",
+        "topic": "Medical Image Analysis Concepts"
+    },
+    {
+        "date": "2027-06-04",
+        "topic": "Remote Sensing Image Analysis"
+    },
+    {
+        "date": "2027-06-11",
+        "topic": "GANs in Computer Vision"
+    },
+    {
+        "date": "2027-06-18",
+        "topic": "Diffusion Models for Images"
+    },
+    {
+        "date": "2027-06-25",
+        "topic": "Image-to-Image Translation"
+    },
+    {
+        "date": "2027-07-02",
+        "topic": "Style Transfer"
+    },
+    {
+        "date": "2027-07-09",
+        "topic": "Neural Rendering"
+    },
+    {
+        "date": "2027-07-16",
+        "topic": "NeRF Basics"
+    },
+    {
+        "date": "2027-07-23",
+        "topic": "Vision-Language Models"
+    },
+    {
+        "date": "2027-07-30",
+        "topic": "CLIP Model Overview"
+    },
+    {
+        "date": "2027-08-06",
+        "topic": "Robustness in Vision Systems"
+    },
+    {
+        "date": "2027-08-13",
+        "topic": "Bias and Fairness in Vision"
+    },
+    {
+        "date": "2027-08-20",
+        "topic": "Uncertainty in Vision Models"
+    },
+    {
+        "date": "2027-08-27",
+        "topic": "Calibration in Vision"
+    },
+    {
+        "date": "2027-09-03",
+        "topic": "Distribution Shift in Vision"
+    },
+    {
+        "date": "2027-09-10",
+        "topic": "Concept Drift in Vision"
+    },
+    {
+        "date": "2027-09-17",
+        "topic": "Large-Scale Vision Training"
+    },
+    {
+        "date": "2027-09-24",
+        "topic": "Data-Centric Vision"
+    },
+    {
+        "date": "2027-10-01",
+        "topic": "Vision Benchmark Datasets"
+    },
+    {
+        "date": "2027-10-08",
+        "topic": "ImageNet and COCO Overview"
+    },
+    {
+        "date": "2027-10-15",
+        "topic": "Model Scaling Laws in Vision"
+    },
+    {
+        "date": "2027-10-22",
+        "topic": "Transformers vs CNNs"
+    },
+    {
+        "date": "2027-10-29",
+        "topic": "Hybrid Vision Architectures"
+    },
+    {
+        "date": "2027-11-05",
+        "topic": "Continual Learning in Vision"
+    },
+    {
+        "date": "2027-11-12",
+        "topic": "Privacy in Vision Systems"
+    },
+    {
+        "date": "2027-11-19",
+        "topic": "Ethics in Computer Vision"
+    },
+    {
+        "date": "2027-11-26",
+        "topic": "Future Trends in Computer Vision"
+    },
+    {
+        "date": "2027-12-03",
+        "topic": "Advanced Topics in Vision Theory"
+    },
+    {
+        "date": "2027-12-10",
+        "topic": "Research Directions in Computer Vision"
+    },
+    {
+        "date": "2027-12-17",
+        "topic": "Statistical Foundations of Vision Models"
+    },
+    {
+        "date": "2027-12-24",
+        "topic": "Optimization Techniques in Vision"
+    },
+    {
+        "date": "2027-12-31",
+        "topic": "Evaluation Frameworks in Vision"
+    },
+    {
+        "date": "2028-01-07",
+        "topic": "Theoretical Limits of Vision Models"
+    }
+]

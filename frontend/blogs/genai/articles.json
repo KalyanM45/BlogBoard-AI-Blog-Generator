@@ -1,0 +1,32 @@
+[
+    {
+        "id": "blogs/genai/rag-from-scratch.md",
+        "category": "genai",
+        "title": "Building RAG from Scratch: Retrieval-Augmented Generation Explained",
+        "description": "Build a complete RAG pipeline from first principles — chunking, embedding, vector stores, retrieval, and LLM generation with practical code.",
+        "date": "2026-01-23",
+        "tags": [
+            "rag",
+            "retrieval-augmented-generation",
+            "llm",
+            "vector-database"
+        ],
+        "readTime": "15 min",
+        "file": "blogs/genai/rag-from-scratch.md"
+    },
+    {
+        "id": "blogs/genai/prompt-engineering-guide.md",
+        "category": "genai",
+        "title": "Advanced Prompt Engineering: Chain-of-Thought, Few-Shot, and Structured Output",
+        "description": "Master advanced prompting techniques that actually work in production — with real examples for reasoning tasks, classification, and structured JSON output.",
+        "date": "2026-01-28",
+        "tags": [
+            "prompt-engineering",
+            "chain-of-thought",
+            "few-shot",
+            "llm"
+        ],
+        "readTime": "10 min",
+        "file": "blogs/genai/prompt-engineering-guide.md"
+    }
+]

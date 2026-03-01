@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category — BlogBoard</title>
+    <meta name="description" content="Browse all articles in this category." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/category.css" />
+</head>
+
+<body>
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="category.html#cat=ml" class="nav-link" data-cat="ml">ML</a></li>
+                <li><a href="category.html#cat=dl" class="nav-link" data-cat="dl">DL</a></li>
+                <li><a href="category.html#cat=nlp" class="nav-link" data-cat="nlp">NLP</a></li>
+                <li><a href="category.html#cat=cv" class="nav-link" data-cat="cv">CV</a></li>
+                <li><a href="category.html#cat=genai" class="nav-link" data-cat="genai">Gen AI</a></li>
+                <li><a href="category.html#cat=ainews" class="nav-link" data-cat="ainews">AI News</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Category Hero -->
+    <section class="cat-hero">
+        <div class="cat-hero-inner">
+            <a href="index.html" class="breadcrumb">← Home</a>
+            <div class="cat-hero-icon" id="catHeroIcon"></div>
+            <div class="cat-badge" id="catBadge"></div>
+            <h1 class="cat-hero-title" id="catHeroTitle">Loading…</h1>
+            <p class="cat-hero-desc" id="catHeroDesc"></p>
+            <div class="cat-count-wrap">
+                <span id="catPostCount" class="cat-count">0</span>
+                <span class="cat-count-label">articles</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter / Sort Bar -->
+    <div class="filter-bar">
+        <div class="filter-inner">
+            <div class="filter-group">
+                <span class="filter-label">Sort by:</span>
+                <button class="filter-btn active" id="sortNewest" onclick="setSortOrder('newest')">Newest First</button>
+                <button class="filter-btn" id="sortOldest" onclick="setSortOrder('oldest')">Oldest First</button>
+            </div>
+            <div class="search-wrap">
+                <svg viewBox="0 0 20 20" fill="none" class="search-icon">
+                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M13.5 13.5 L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search articles…" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog List -->
+    <main class="blog-list-section">
+        <div class="blog-list" id="blogList">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Loading articles…</p>
+            </div>
+        </div>
+        <div class="empty-state hidden" id="emptyState">
+            <div class="empty-icon">📭</div>
+            <h3>No articles found</h3>
+            <p>Try a different search term or check back later.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+            </div>
+            <p class="footer-sub">Built for those who learn, think, and build.</p>
+            <div class="footer-cats">
+                <a href="category.html#cat=ml">ML</a>
+                <a href="category.html#cat=dl">DL</a>
+                <a href="category.html#cat=nlp">NLP</a>
+                <a href="category.html#cat=cv">CV</a>
+                <a href="category.html#cat=genai">Gen AI</a>
+                <a href="category.html#cat=ainews">AI News</a>
+            </div>
+            <p class="footer-copy">© 2026 BlogBoard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/blogs-data.js"></script>
+    <script src="js/category.js"></script>
+</body>
+
+</html>

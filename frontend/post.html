@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post — BlogBoard</title>
+    <meta name="description" content="Read this article on BlogBoard." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/post.css" />
+</head>
+
+<body>
+    <!-- Ambient Background -->
+    <div class="ambient-bg ambient-subtle">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="category.html#cat=ml" class="nav-link">ML</a></li>
+                <li><a href="category.html#cat=dl" class="nav-link">DL</a></li>
+                <li><a href="category.html#cat=nlp" class="nav-link">NLP</a></li>
+                <li><a href="category.html#cat=cv" class="nav-link">CV</a></li>
+                <li><a href="category.html#cat=genai" class="nav-link">Gen AI</a></li>
+                <li><a href="category.html#cat=ainews" class="nav-link">AI News</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Post Layout -->
+    <div class="post-layout">
+        <!-- Main Content -->
+        <article class="post-main" id="postMain">
+            <!-- Breadcrumb -->
+            <nav class="post-breadcrumb" id="postBreadcrumb">
+                <a href="index.html">Home</a>
+                <span>›</span>
+                <a href="#" id="catLink">Category</a>
+                <span>›</span>
+                <span id="postTitle">Loading…</span>
+            </nav>
+
+            <!-- Post Header -->
+            <header class="post-header" id="postHeader">
+                <div class="post-meta-top">
+                    <span class="post-cat-badge" id="postCatBadge"></span>
+                    <span class="post-read-time" id="postReadTime"></span>
+                </div>
+                <h1 class="post-title" id="postTitleH1">Loading…</h1>
+                <div class="post-meta-bottom">
+                    <span class="post-date" id="postDate"></span>
+                </div>
+                <div class="post-divider"></div>
+            </header>
+
+            <!-- Markdown Content -->
+            <div class="post-content markdown-body" id="postContent">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading article…</p>
+                </div>
+            </div>
+
+            <!-- Post Footer -->
+            <div class="post-footer">
+                <div class="post-tags" id="postTags"></div>
+                <div class="post-nav-btns">
+                    <a href="#" id="backToCat" class="btn-ghost-sm">← Back to Category</a>
+                    <a href="index.html" class="btn-ghost-sm">Home ↑</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sidebar: TOC -->
+        <aside class="post-sidebar" id="postSidebar">
+            <div class="toc-card">
+                <h3 class="toc-title">On This Page</h3>
+                <nav class="toc-nav" id="tocNav">
+                    <p class="toc-empty">No headings found</p>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Blog<span class="logo-accent">Board</span></span>
+            </div>
+            <p class="footer-sub">Built for those who learn, think, and build.</p>
+            <div class="footer-cats">
+                <a href="category.html#cat=ml">ML</a>
+                <a href="category.html#cat=dl">DL</a>
+                <a href="category.html#cat=nlp">NLP</a>
+                <a href="category.html#cat=cv">CV</a>
+                <a href="category.html#cat=genai">Gen AI</a>
+                <a href="category.html#cat=ainews">AI News</a>
+            </div>
+            <p class="footer-copy">© 2026 BlogBoard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+    <!-- highlight.js for code syntax highlighting -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="js/blogs-data.js"></script>
+    <script src="js/post.js"></script>
+</body>
+
+</html>

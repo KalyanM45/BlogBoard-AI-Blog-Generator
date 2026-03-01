@@ -1,0 +1,390 @@
+[
+    {
+        "date": "2026-03-05",
+        "topic": "Introduction to NLP"
+    },
+    {
+        "date": "2026-03-12",
+        "topic": "Text Preprocessing Techniques"
+    },
+    {
+        "date": "2026-03-19",
+        "topic": "Tokenization Methods"
+    },
+    {
+        "date": "2026-03-26",
+        "topic": "Stopwords and Text Cleaning"
+    },
+    {
+        "date": "2026-04-02",
+        "topic": "Stemming and Lemmatization"
+    },
+    {
+        "date": "2026-04-09",
+        "topic": "Regular Expressions for Text"
+    },
+    {
+        "date": "2026-04-16",
+        "topic": "Bag of Words Model"
+    },
+    {
+        "date": "2026-04-23",
+        "topic": "TF-IDF Representation"
+    },
+    {
+        "date": "2026-04-30",
+        "topic": "N-grams and Language Modeling"
+    },
+    {
+        "date": "2026-05-07",
+        "topic": "Word Embeddings Overview"
+    },
+    {
+        "date": "2026-05-14",
+        "topic": "Word2Vec Architecture"
+    },
+    {
+        "date": "2026-05-21",
+        "topic": "GloVe Embeddings"
+    },
+    {
+        "date": "2026-05-28",
+        "topic": "FastText Model"
+    },
+    {
+        "date": "2026-06-04",
+        "topic": "Contextual Embeddings"
+    },
+    {
+        "date": "2026-06-11",
+        "topic": "Sentence and Document Embeddings"
+    },
+    {
+        "date": "2026-06-18",
+        "topic": "Similarity Measures in NLP"
+    },
+    {
+        "date": "2026-06-25",
+        "topic": "Text Classification Fundamentals"
+    },
+    {
+        "date": "2026-07-02",
+        "topic": "Naive Bayes for NLP"
+    },
+    {
+        "date": "2026-07-09",
+        "topic": "Logistic Regression for Text"
+    },
+    {
+        "date": "2026-07-16",
+        "topic": "Evaluation Metrics in NLP"
+    },
+    {
+        "date": "2026-07-23",
+        "topic": "Topic Modeling Concepts"
+    },
+    {
+        "date": "2026-07-30",
+        "topic": "Latent Dirichlet Allocation"
+    },
+    {
+        "date": "2026-08-06",
+        "topic": "Named Entity Recognition"
+    },
+    {
+        "date": "2026-08-13",
+        "topic": "Part-of-Speech Tagging"
+    },
+    {
+        "date": "2026-08-20",
+        "topic": "Dependency Parsing"
+    },
+    {
+        "date": "2026-08-27",
+        "topic": "Hidden Markov Models in NLP"
+    },
+    {
+        "date": "2026-09-03",
+        "topic": "Conditional Random Fields"
+    },
+    {
+        "date": "2026-09-10",
+        "topic": "Recurrent Neural Networks for NLP"
+    },
+    {
+        "date": "2026-09-17",
+        "topic": "LSTM for Sequence Modeling"
+    },
+    {
+        "date": "2026-09-24",
+        "topic": "GRU Networks"
+    },
+    {
+        "date": "2026-10-01",
+        "topic": "Attention Mechanism"
+    },
+    {
+        "date": "2026-10-08",
+        "topic": "Transformers Architecture"
+    },
+    {
+        "date": "2026-10-15",
+        "topic": "Self-Attention Deep Dive"
+    },
+    {
+        "date": "2026-10-22",
+        "topic": "BERT Model Overview"
+    },
+    {
+        "date": "2026-10-29",
+        "topic": "GPT Model Overview"
+    },
+    {
+        "date": "2026-11-05",
+        "topic": "Pretraining vs Fine-Tuning"
+    },
+    {
+        "date": "2026-11-12",
+        "topic": "Transfer Learning in NLP"
+    },
+    {
+        "date": "2026-11-19",
+        "topic": "Text Generation Concepts"
+    },
+    {
+        "date": "2026-11-26",
+        "topic": "Sequence-to-Sequence Models"
+    },
+    {
+        "date": "2026-12-03",
+        "topic": "Beam Search and Decoding"
+    },
+    {
+        "date": "2026-12-10",
+        "topic": "Perplexity in Language Models"
+    },
+    {
+        "date": "2026-12-17",
+        "topic": "BLEU and ROUGE Metrics"
+    },
+    {
+        "date": "2026-12-24",
+        "topic": "Sentiment Analysis Theory"
+    },
+    {
+        "date": "2026-12-31",
+        "topic": "Aspect-Based Sentiment Analysis"
+    },
+    {
+        "date": "2027-01-07",
+        "topic": "Text Summarization Techniques"
+    },
+    {
+        "date": "2027-01-14",
+        "topic": "Machine Translation Fundamentals"
+    },
+    {
+        "date": "2027-01-21",
+        "topic": "Information Retrieval Basics"
+    },
+    {
+        "date": "2027-01-28",
+        "topic": "BM25 Algorithm"
+    },
+    {
+        "date": "2027-02-04",
+        "topic": "Semantic Search Concepts"
+    },
+    {
+        "date": "2027-02-11",
+        "topic": "Vector Representations for Search"
+    },
+    {
+        "date": "2027-02-18",
+        "topic": "Cross-Lingual NLP"
+    },
+    {
+        "date": "2027-02-25",
+        "topic": "Multilingual Language Models"
+    },
+    {
+        "date": "2027-03-04",
+        "topic": "Zero-Shot and Few-Shot Learning"
+    },
+    {
+        "date": "2027-03-11",
+        "topic": "Prompting Techniques"
+    },
+    {
+        "date": "2027-03-18",
+        "topic": "Hallucination in Language Models"
+    },
+    {
+        "date": "2027-03-25",
+        "topic": "Bias in NLP Models"
+    },
+    {
+        "date": "2027-04-01",
+        "topic": "Explainability in NLP"
+    },
+    {
+        "date": "2027-04-08",
+        "topic": "Model Compression in NLP"
+    },
+    {
+        "date": "2027-04-15",
+        "topic": "Distillation in NLP"
+    },
+    {
+        "date": "2027-04-22",
+        "topic": "Quantization Techniques"
+    },
+    {
+        "date": "2027-04-29",
+        "topic": "Scaling NLP Models"
+    },
+    {
+        "date": "2027-05-06",
+        "topic": "Low-Resource Language Modeling"
+    },
+    {
+        "date": "2027-05-13",
+        "topic": "Domain Adaptation in NLP"
+    },
+    {
+        "date": "2027-05-20",
+        "topic": "Knowledge Graphs in NLP"
+    },
+    {
+        "date": "2027-05-27",
+        "topic": "Entity Linking"
+    },
+    {
+        "date": "2027-06-03",
+        "topic": "Coreference Resolution"
+    },
+    {
+        "date": "2027-06-10",
+        "topic": "Text Clustering"
+    },
+    {
+        "date": "2027-06-17",
+        "topic": "Spam Detection Theory"
+    },
+    {
+        "date": "2027-06-24",
+        "topic": "Fake News Detection Concepts"
+    },
+    {
+        "date": "2027-07-01",
+        "topic": "Toxicity Detection Models"
+    },
+    {
+        "date": "2027-07-08",
+        "topic": "Intent Classification"
+    },
+    {
+        "date": "2027-07-15",
+        "topic": "Slot Filling"
+    },
+    {
+        "date": "2027-07-22",
+        "topic": "Dialogue System Fundamentals"
+    },
+    {
+        "date": "2027-07-29",
+        "topic": "Reinforcement Learning for NLP"
+    },
+    {
+        "date": "2027-08-05",
+        "topic": "Continual Learning in NLP"
+    },
+    {
+        "date": "2027-08-12",
+        "topic": "Privacy and Security in NLP"
+    },
+    {
+        "date": "2027-08-19",
+        "topic": "Ethics in NLP"
+    },
+    {
+        "date": "2027-08-26",
+        "topic": "Distribution Shift in NLP"
+    },
+    {
+        "date": "2027-09-02",
+        "topic": "Uncertainty in Language Models"
+    },
+    {
+        "date": "2027-09-09",
+        "topic": "Calibration in NLP"
+    },
+    {
+        "date": "2027-09-16",
+        "topic": "Adversarial Attacks in NLP"
+    },
+    {
+        "date": "2027-09-23",
+        "topic": "Adversarial Defense Techniques"
+    },
+    {
+        "date": "2027-09-30",
+        "topic": "Contrastive Learning in NLP"
+    },
+    {
+        "date": "2027-10-07",
+        "topic": "Self-Supervised Learning in NLP"
+    },
+    {
+        "date": "2027-10-14",
+        "topic": "Parameter-Efficient Fine-Tuning"
+    },
+    {
+        "date": "2027-10-21",
+        "topic": "LoRA for NLP"
+    },
+    {
+        "date": "2027-10-28",
+        "topic": "Model Scaling Laws"
+    },
+    {
+        "date": "2027-11-04",
+        "topic": "Large Language Model Fundamentals"
+    },
+    {
+        "date": "2027-11-11",
+        "topic": "Retrieval-Augmented Generation Concepts"
+    },
+    {
+        "date": "2027-11-18",
+        "topic": "Evaluation Frameworks for LLMs"
+    },
+    {
+        "date": "2027-11-25",
+        "topic": "Data-Centric NLP"
+    },
+    {
+        "date": "2027-12-02",
+        "topic": "Robustness in NLP"
+    },
+    {
+        "date": "2027-12-09",
+        "topic": "Fairness Metrics in NLP"
+    },
+    {
+        "date": "2027-12-16",
+        "topic": "Statistical Learning Theory for NLP"
+    },
+    {
+        "date": "2027-12-23",
+        "topic": "Information Theory in NLP"
+    },
+    {
+        "date": "2027-12-30",
+        "topic": "Future Research Directions in NLP"
+    },
+    {
+        "date": "2028-01-06",
+        "topic": "Advanced Topics in NLP Theory"
+    }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "blogs/ml/machine-learning-types.md",
+    "category": "ml",
+    "title": "Machine Learning Types",
+    "description": "Discover machine learning basics and its types to boost your skills",
+    "date": "2026-03-01",
+    "tags": [
+      "machine-learning",
+      "deep-learning",
+      "natural-language-processing",
+      "artificial-intelligence",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/machine-learning-types.md"
+  },
+  {
+    "id": "blogs/ml/gradient-descent-intuition.md",
+    "category": "ml",
+    "title": "Gradient Descent: Building Intuition Beyond the Formula",
+    "description": "Stop memorizing gradient descent — understand it. We build intuition from scratch and explore variants like SGD, Adam, and RMSProp.",
+    "date": "2026-01-22",
+    "tags": [
+      "gradient-descent",
+      "optimization",
+      "deep-learning",
+      "intuition"
+    ],
+    "readTime": "12 min",
+    "file": "blogs/ml/gradient-descent-intuition.md"
+  },
+  {
+    "id": "blogs/ml/intro-to-ml.md",
+    "category": "ml",
+    "title": "Introduction to Machine Learning: A Practical Roadmap",
+    "description": "A clear, hands-on introduction to Machine Learning — what it is, how the pipeline works, and what you need to get started.",
+    "date": "2026-01-15",
+    "tags": [
+      "machine-learning",
+      "beginners",
+      "python",
+      "scikit-learn"
+    ],
+    "readTime": "10 min",
+    "file": "blogs/ml/intro-to-ml.md"
+  }
+]

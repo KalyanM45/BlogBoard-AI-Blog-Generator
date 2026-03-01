@@ -1,0 +1,17 @@
+[
+    {
+        "id": "blogs/nlp/word-embeddings-deep-dive.md",
+        "category": "nlp",
+        "title": "Word Embeddings Deep Dive: From Word2Vec to Contextual Representations",
+        "description": "Explore the evolution of word embeddings — from static Word2Vec and GloVe to dynamic contextual embeddings from ELMo and BERT.",
+        "date": "2026-01-20",
+        "tags": [
+            "word-embeddings",
+            "word2vec",
+            "bert",
+            "nlp"
+        ],
+        "readTime": "11 min",
+        "file": "blogs/nlp/word-embeddings-deep-dive.md"
+    }
+]
