@@ -1,13 +1,9 @@
 {
-  "2026-02-28": {
-    "domain": "ml",
-    "topic": "What is Artificial Intelligence?"
-  },
-  "2026-03-01": {
-    "domain": "ml",
-    "topic": "Pros and Cons of Artificial Intelligence"
-  },
   "2026-03-02": {
+    "domain": "ml",
+    "topic": "What is Machine Learning?"
+  },
+  "2026-03-03": {
     "domain": "dl",
     "topic": "Introduction to Deep Learning"
   },
