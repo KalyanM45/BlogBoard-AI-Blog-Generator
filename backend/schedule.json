@@ -1,11 +1,7 @@
 {
-  "2026-02-28": {
-    "domain": "ml",
-    "topic": "What is Artificial Intelligence?"
-  },
   "2026-03-01": {
-    "domain": "genai",
-    "topic": "Introduction to Generative AI"
+    "domain": "cv",
+    "topic": "Introduction to Computer Vision"
   },
   "2026-03-02": {
     "domain": "ml",
@@ -22,6 +18,10 @@
   "2026-03-05": {
     "domain": "nlp",
     "topic": "Introduction to NLP"
+  },
+  "2026-03-07": {
+    "domain": "genai",
+    "topic": "Introduction to Generative AI"
   },
   "2026-03-09": {
     "domain": "ml",

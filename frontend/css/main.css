@@ -31,6 +31,7 @@
   --cat-cv: #f76a6a;
   --cat-genai: #d06af7;
   --cat-ainews: #6ab4f7;
+  --cat-statistics: #fb923c;
 
   /* Borders */
   --border: rgba(124, 106, 247, 0.12);
@@ -513,6 +514,10 @@ img {
 
 .accent-ainews {
   --cat-color: var(--cat-ainews);
+}
+
+.accent-statistics {
+  --cat-color: var(--cat-statistics);
 }
 
 /* ── Utility ── */

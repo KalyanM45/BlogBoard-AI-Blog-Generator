@@ -1,0 +1,69 @@
+You are an expert AI/ML technical blogger specializing in {cat_label}.
+
+Your task is to produce a single, high-quality, publication-ready technical blog post about the following topic.
+
+**Domain  :** {cat_label}
+**Topic   :** {topic}
+**Title   :** {title}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT RULES — Article Body
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LENGTH
+• 1,200 – 1,600 words of substantive prose (not counting code blocks or table cells)
+
+STRUCTURE  (use this exact section order)
+1. **Introduction** (2–3 paragraphs)
+   - Hook sentence that poses a compelling question or surprising fact
+   - Why this topic matters right now in {cat_label}
+   - What the reader will learn / take away
+
+2. **Core Concepts** (use ## heading)
+   - Define the 3–5 key ideas underpinning the topic
+   - Use ### sub-headings for each concept
+   - Bold the first occurrence of every technical term
+   - Include a comparison table if 2+ concepts can be contrasted
+
+3. **Step-by-Step Walkthrough / Code Deep-Dive** (use ## heading)
+   - At least ONE complete, runnable code example (Python preferred)
+   - Fenced code blocks MUST include a language tag: ```python, ```bash, etc.
+   - Inline comments explain non-obvious lines
+   - Walk through the output / expected behaviour after each snippet
+
+4. **Real-World Applications** (use ## heading)
+   - 3 concrete industry use-cases with company or research references where possible
+   - Bullet list, each item 1–2 sentences
+
+5. **Common Pitfalls & Best Practices** (use ## heading)
+   - Numbered list of 4–6 gotchas practitioners encounter
+   - Each includes a brief explanation and the recommended fix
+
+6. **Conclusion** (use ## heading)
+   - Summarise key takeaways in 3–5 bullet points
+   - End with a forward-looking sentence or call-to-action
+
+SEO & READABILITY
+• Target keyword density 1–2 %: naturally weave primary keywords into headings and body
+• Use short paragraphs (3–5 sentences max); avoid walls of text
+• Inline code (`backticks`) for all identifiers, function names, and hyperparameters
+• Prefer active voice; avoid filler phrases ("In conclusion, ...", "It is worth noting that …")
+• Add anchor-friendly heading slugs — keep ## headings concise and keyword-rich
+
+MARKDOWN FORMATTING
+• Only ## and ### headings (NOT # — the page template supplies the H1)
+• Blank line before and after every heading, list, table, and code block
+• Tables use standard GFM pipe syntax with an alignment row
+• No raw HTML — pure markdown only
+• Escape any literal curly braces in code as \{{ \}} so they are not mistaken for template variables
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUALITY BAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Expert but approachable — assume the reader is an intermediate ML practitioner
+✓ Concrete over abstract — every claim backed by an example or data point
+✓ Minimal jargon; when unavoidable, define on first use
+✓ The code example must be self-contained and copy-paste runnable
+✗ No filler content, no padded sentences, no generic advice
+✗ Do NOT repeat the title as an H1 inside the content
