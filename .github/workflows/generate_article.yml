@@ -2,7 +2,7 @@ name: Generate Daily Article
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # 13:30 IST (08:00 UTC) for test run
+    - cron: '15 8 * * *'   # 13:45 IST (08:15 UTC) for test run
 
   workflow_dispatch:
     inputs:
@@ -32,16 +32,20 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
         with:
-          python-version: '3.11'
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Set up Python
+        run: uv python install 3.11
+
+      - name: Sync dependencies
+        run: uv sync --frozen
 
       - name: Rebuild schedule.json
-        run: python backend/scripts/build_schedule.py
+        run: uv run backend/scripts/build_schedule.py
 
       - name: Generate article
         env:
@@ -58,7 +62,7 @@ jobs:
             DRY_RUN_ARG="--dry-run"
           fi
 
-          python backend/scripts/generate_article.py $DATE_ARG $DRY_RUN_ARG
+          uv run backend/scripts/generate_article.py $DATE_ARG $DRY_RUN_ARG
 
       - name: Commit and push generated article
         if: ${{ github.event.inputs.dry_run != 'true' }}
