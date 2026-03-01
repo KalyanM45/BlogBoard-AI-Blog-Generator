@@ -32,14 +32,15 @@ async function loadStats() {
 }
 
 function animateCounter(id, target) {
-    const el = document.getElementById(id);
-    if (!el) return;
+    const container = document.getElementById(id);
+    if (!container) return;
+    const el = container.querySelector('.stat-num') || container;
     let current = 0;
     const step = Math.ceil(target / 40);
     const timer = setInterval(() => {
         current += step;
         if (current >= target) { current = target; clearInterval(timer); }
-        el.textContent = current + (id === 'totalCategories' ? '' : '+');
+        el.textContent = current;
     }, 40);
 }
 

@@ -147,6 +147,8 @@
     gap: 20px;
 }
 
+
+
 .cat-card {
     position: relative;
     display: flex;
@@ -205,6 +207,10 @@
 
 .cat-card[data-cat="ainews"]:hover {
     border-color: rgba(106, 180, 247, 0.4);
+}
+
+.cat-card[data-cat="statistics"]:hover {
+    border-color: rgba(251, 146, 60, 0.4);
 }
 
 .cat-icon-wrap {

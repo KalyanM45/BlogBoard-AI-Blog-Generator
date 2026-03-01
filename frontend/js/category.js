@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const newCat = getHashParam('cat') || 'ml';
         if (newCat !== catKey) {
             catKey = newCat;
-            catKey = catKey;
+            updateNavHighlight(catKey);
             applyCategoryTheme(catKey);
             cachedBlogs = [];
             searchTerm = '';
@@ -47,9 +47,7 @@ function initNav() {
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('navLinks');
 
-    document.querySelectorAll('.nav-link[data-cat]').forEach(link => {
-        link.classList.toggle('active', link.getAttribute('data-cat') === catKey);
-    });
+    updateNavHighlight(catKey);
 
     window.addEventListener('scroll', () => {
         navbar.classList.toggle('scrolled', window.scrollY > 30);
@@ -60,6 +58,23 @@ function initNav() {
         navLinks.classList.toggle('open');
     });
 }
+
+function updateNavHighlight(cat) {
+    document.querySelectorAll('.nav-link[data-cat]').forEach(link => {
+        link.classList.toggle('active', link.getAttribute('data-cat') === cat);
+    });
+}
+
+/* ── Domain schedule info ── */
+const DOMAIN_SCHEDULE = {
+    ml: { day: 'Monday', time: '8 AM IST' },
+    dl: { day: 'Tuesday', time: '8 AM IST' },
+    statistics: { day: 'Wednesday', time: '8 AM IST' },
+    nlp: { day: 'Thursday', time: '8 AM IST' },
+    cv: { day: 'Friday', time: '8 AM IST' },
+    genai: { day: 'Saturday', time: '8 AM IST' },
+    ainews: { day: 'Sunday', time: '8 AM IST' },
+};
 
 /* ── Sort ── */
 function setSortOrder(order) {
@@ -82,11 +97,26 @@ function applyCategoryTheme(cat) {
     const badge = document.getElementById('catBadge');
     const title = document.getElementById('catHeroTitle');
     const desc = document.getElementById('catHeroDesc');
+    const scheduleBadge = document.getElementById('catScheduleBadge');
 
     if (icon) icon.textContent = meta.icon;
     if (badge) { badge.textContent = meta.shortLabel; badge.style.background = meta.bgColor; badge.style.color = meta.color; }
     if (title) title.textContent = meta.label;
     if (desc) desc.textContent = meta.description;
+
+    if (scheduleBadge) {
+        const sched = DOMAIN_SCHEDULE[cat];
+        if (sched && sched.day) {
+            scheduleBadge.innerHTML = `
+                <span class="sched-icon">🗓️</span>
+                <span>Fresh articles drop every <strong>${sched.day}</strong> — live by <strong>${sched.time}</strong></span>
+            `;
+            scheduleBadge.style.display = 'flex';
+        } else {
+            scheduleBadge.innerHTML = `<span class="sched-icon">📡</span><span>Published as breaking news arrives</span>`;
+            scheduleBadge.style.display = 'flex';
+        }
+    }
 }
 
 /* ── Render Blog List ── */

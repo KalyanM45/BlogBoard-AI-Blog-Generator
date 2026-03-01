@@ -77,7 +77,7 @@ const CATEGORY_META = {
   },
 };
 
-const ALL_CATEGORIES = ['ml', 'dl', 'nlp', 'cv', 'genai', 'ainews'];
+const ALL_CATEGORIES = ['ml', 'dl', 'nlp', 'cv', 'genai', 'ainews', 'statistics'];
 
 /* ── Cache ─────────────────────────────────────────────── */
 const _cache = {};
