@@ -1,4 +1,0 @@
-langgraph>=0.2
-langchain-core>=0.2
-groq>=0.9
-python-dotenv>=1.0
