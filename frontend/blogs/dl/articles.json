@@ -1,32 +1,48 @@
 [
-    {
-        "id": "blogs/dl/transformers-explained.md",
-        "category": "dl",
-        "title": "The Transformer Architecture: Self-Attention Explained from Scratch",
-        "description": "A deep technical walkthrough of the Transformer — from scaled dot-product attention to multi-head attention and positional encodings.",
-        "date": "2026-01-18",
-        "tags": [
-            "transformers",
-            "self-attention",
-            "nlp",
-            "deep-learning"
-        ],
-        "readTime": "14 min",
-        "file": "blogs/dl/transformers-explained.md"
-    },
-    {
-        "id": "blogs/dl/backpropagation-demystified.md",
-        "category": "dl",
-        "title": "Backpropagation Demystified: Chain Rule in Practice",
-        "description": "Implement backpropagation from scratch with NumPy. Understand the chain rule across computation graphs and see exactly how neural networks learn.",
-        "date": "2026-01-25",
-        "tags": [
-            "backpropagation",
-            "neural-networks",
-            "chain-rule",
-            "numpy"
-        ],
-        "readTime": "13 min",
-        "file": "blogs/dl/backpropagation-demystified.md"
-    }
+  {
+    "id": "blogs/dl/deep-learning-intro.md",
+    "category": "dl",
+    "title": "Deep Learning Intro",
+    "description": "Learn deep learning basics and boost your AI skills. Discover neural networks and more.",
+    "date": "2026-03-03",
+    "tags": [
+      "deep-learning",
+      "neural-networks",
+      "machine-learning",
+      "artificial-intelligence",
+      "natural-language-processing"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/dl/deep-learning-intro.md"
+  },
+  {
+    "id": "blogs/dl/backpropagation-demystified.md",
+    "category": "dl",
+    "title": "Backpropagation Demystified: Chain Rule in Practice",
+    "description": "Implement backpropagation from scratch with NumPy. Understand the chain rule across computation graphs and see exactly how neural networks learn.",
+    "date": "2026-01-25",
+    "tags": [
+      "backpropagation",
+      "neural-networks",
+      "chain-rule",
+      "numpy"
+    ],
+    "readTime": "13 min",
+    "file": "blogs/dl/backpropagation-demystified.md"
+  },
+  {
+    "id": "blogs/dl/transformers-explained.md",
+    "category": "dl",
+    "title": "The Transformer Architecture: Self-Attention Explained from Scratch",
+    "description": "A deep technical walkthrough of the Transformer — from scaled dot-product attention to multi-head attention and positional encodings.",
+    "date": "2026-01-18",
+    "tags": [
+      "transformers",
+      "self-attention",
+      "nlp",
+      "deep-learning"
+    ],
+    "readTime": "14 min",
+    "file": "blogs/dl/transformers-explained.md"
+  }
 ]
