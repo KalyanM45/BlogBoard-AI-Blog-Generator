@@ -4,8 +4,8 @@
     "topic": "What is Artificial Intelligence?"
   },
   "2026-03-01": {
-    "domain": "ml",
-    "topic": "Pros and Cons of Artificial Intelligence"
+    "domain": "genai",
+    "topic": "Introduction to Generative AI"
   },
   "2026-03-02": {
     "domain": "ml",
@@ -26,10 +26,6 @@
   "2026-03-06": {
     "domain": "cv",
     "topic": "Introduction to Computer Vision"
-  },
-  "2026-03-07": {
-    "domain": "genai",
-    "topic": "Introduction to Generative AI"
   },
   "2026-03-09": {
     "domain": "ml",
