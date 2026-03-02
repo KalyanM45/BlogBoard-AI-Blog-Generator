@@ -214,7 +214,7 @@ img {
 }
 
 .logo-icon {
-  color: var(--accent-primary);
+  color: #03a57a;
   font-size: 1.4rem;
   line-height: 1;
 }
