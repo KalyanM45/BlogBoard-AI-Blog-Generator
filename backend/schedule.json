@@ -11,7 +11,8 @@
   },
   "2026-03-04": {
     "domain": "statistics",
-    "topic": "Introduction to Statistics for AI & ML"
+    "topic": "Introduction to Statistics for AI & ML",
+    "subtopics": "Why Learn Statistics for ai, Applications of Statistics in ai"
   },
   "2026-03-05": {
     "domain": "nlp",
