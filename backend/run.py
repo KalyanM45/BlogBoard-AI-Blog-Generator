@@ -50,10 +50,15 @@ Examples
         "--dry-run", action="store_true",
         help="Preview mode: skip Groq calls and file writes",
     )
+    parser.add_argument(
+        "--ainews", action="store_true",
+        help="Run the AI News gathering and generation graph",
+    )
     args = parser.parse_args()
 
     date_str = args.date or today_ist()
     dry_run  = args.dry_run
+    run_ainews = args.ainews
 
     # ── Banner ────────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
@@ -69,7 +74,11 @@ Examples
     }
 
     config = {"configurable": {"thread_id": "blogboard-1"}}
-    final_state = graph.invoke(initial_state, config=config)
+    if run_ainews:
+        from graph.graph_ainews import ainews_graph
+        final_state = ainews_graph.invoke(initial_state, config=config)
+    else:
+        final_state = graph.invoke(initial_state, config=config)
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")

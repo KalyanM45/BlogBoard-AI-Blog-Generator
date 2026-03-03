@@ -16,3 +16,4 @@ class BlogState(TypedDict, total=False):
     content: str
     read_time: str
     md_path: str
+    news_data: str
