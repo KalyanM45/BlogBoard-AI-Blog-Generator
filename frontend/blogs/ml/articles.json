@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/machine-learning-challenges.md",
+    "category": "ml",
+    "title": "Machine Learning Challenges",
+    "description": "Discover key machine learning challenges and overcome them",
+    "date": "2026-03-09",
+    "tags": [
+      "machine-learning",
+      "deep-learning",
+      "ai-models",
+      "data-science",
+      "ml-engineering"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/machine-learning-challenges.md"
+  },
+  {
     "id": "blogs/ml/machine-learning-explained.md",
     "category": "ml",
     "title": "Machine Learning Explained",
