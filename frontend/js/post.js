@@ -109,9 +109,9 @@ async function loadPost() {
         ).join('');
     }
 
-    // Fetch and render markdown
+    // Fetch and render markdown from R2
     try {
-        const response = await fetch(blog.file);
+        const response = await fetch(`${R2_PUBLIC_URL}/${blog.file}`);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
         const mdText = await response.text();
@@ -120,8 +120,8 @@ async function loadPost() {
     } catch (err) {
         showError(
             `Could not load the article file.<br>
-       <small>Expected: <code>${blog.file}</code></small><br>
-       <small>Make sure you are running this through a local server (e.g. <code>npx serve</code>), not by opening the HTML file directly.</small>`,
+       <small>Expected URL: <code>${R2_PUBLIC_URL}/${blog.file}</code></small><br>
+       <small>Ensure your R2 bucket is public and the URL in blogs-data.js is correct.</small>`,
             contentEl
         );
         console.error('Failed to load blog post:', err);

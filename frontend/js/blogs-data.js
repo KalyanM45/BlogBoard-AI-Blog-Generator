@@ -82,16 +82,20 @@ const ALL_CATEGORIES = ['ml', 'dl', 'nlp', 'cv', 'genai', 'ainews', 'statistics'
 /* ── Cache ─────────────────────────────────────────────── */
 const _cache = {};
 
+const R2_PUBLIC_URL = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.R2_PUBLIC_URL)
+  ? window.CONFIG.R2_PUBLIC_URL
+  : 'https://missing-config-js.r2.dev';
+
 /* ── Core Fetch ────────────────────────────────────────── */
 /**
- * Load articles.json for a category.
- * Returns [] if the file doesn't exist or fails to parse.
+ * Load articles.json from the Cloudflare R2 bucket.
+ * Returns [] if the request fails (i.e. empty category).
  */
 async function loadCategoryArticles(cat) {
   if (_cache[cat] !== undefined) return _cache[cat];
 
   try {
-    const res = await fetch(`blogs/${cat}/articles.json`);
+    const res = await fetch(`${R2_PUBLIC_URL}/blogs/${cat}/articles.json`);
     if (!res.ok) {
       _cache[cat] = [];
       return [];
@@ -121,13 +125,13 @@ async function getBlogsByCategory(cat, sort = 'newest') {
 }
 
 /**
- * Get a single blog by its id (the relative path).
- * Searches all categories.
+ * Get a single blog metadata by its id.
+ * The id is generally the relative path "blogs/domain/slug.md" stored in the json.
  */
 async function getBlogById(id) {
-  // Try to guess the category from the id path (blogs/{cat}/...)
+  // Try to parse category from path "blogs/{cat}/..."
   const parts = id.split('/');
-  if (parts.length >= 2) {
+  if (parts.length >= 3) {
     const cat = parts[1];
     if (CATEGORY_META[cat]) {
       const articles = await loadCategoryArticles(cat);
@@ -135,7 +139,8 @@ async function getBlogById(id) {
       if (found) return found;
     }
   }
-  // Fallback: search all categories
+
+  // Fallback brute force
   for (const cat of Object.keys(CATEGORY_META)) {
     const articles = await loadCategoryArticles(cat);
     const found = articles.find(a => a.id === id || a.file === id);

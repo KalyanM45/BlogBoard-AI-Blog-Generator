@@ -208,28 +208,23 @@ def llm_generate(state: BlogState) -> BlogState:
         "read_time":   rt,
     }
 
+from storage import upload_string_to_r2, get_articles_json_from_r2
+
 def save_markdown(state: BlogState) -> BlogState:
-
     domain, slug, content = state["domain"], state["slug"], state["content"]
-
-    domain_dir  = BLOGS_DIR / domain
-    md_filename = f"{slug}.md"
-    md_path     = domain_dir / md_filename
+    
+    object_key = f"blogs/{domain}/{slug}.md"
 
     if state.get("dry_run"):
-        print(f"  [DRY RUN] Would write: frontend/blogs/{domain}/{md_filename}")
-        return {**state, "md_path": str(md_path)}
+        print(f"  [DRY RUN] Would upload to R2: {object_key}")
+        return {**state, "md_path": f"r2://{object_key}"}
 
-    domain_dir.mkdir(parents=True, exist_ok=True)
-    with open(md_path, "w", encoding="utf-8") as f:
-        f.write(content)
+    upload_string_to_r2(content, object_key, content_type="text/markdown")
 
-    print(f"  ✅ Saved: {md_path}")
-    return {**state, "md_path": str(md_path)}
+    return {**state, "md_path": f"r2://{object_key}"}
 
 
 def update_articles_json(state: BlogState) -> BlogState:
-    
     domain      = state["domain"]
     slug        = state["slug"]
     title       = state["title"]
@@ -237,26 +232,18 @@ def update_articles_json(state: BlogState) -> BlogState:
     tags        = state["tags"]
     read_time   = state["read_time"]
     date        = state["date"]
-    md_filename = f"{slug}.md"
-    md_relative = f"blogs/{domain}/{md_filename}"
-
-    articles_path = BLOGS_DIR / domain / "articles.json"
+    
+    md_relative = f"blogs/{domain}/{slug}.md"
+    json_key    = f"blogs/{domain}/articles.json"
 
     if state.get("dry_run"):
-        print(f"  [DRY RUN] Would update: frontend/blogs/{domain}/articles.json")
+        print(f"  [DRY RUN] Would update R2 JSON list: {json_key}")
         return state
 
-    # Load existing articles (gracefully handle missing file)
-    articles: list[dict] = []
-    if articles_path.exists() and articles_path.stat().st_size > 0:
-        try:
-            with open(articles_path, "r", encoding="utf-8") as f:
-                articles = json.load(f)
-        except json.JSONDecodeError:
-            print(f"  [WARN] {articles_path.name} was invalid/empty JSON. Starting fresh.")
-            articles = []
+    # Fetch existing from R2
+    articles = get_articles_json_from_r2(domain)
 
-    # Remove any existing entry for this same slug to avoid duplicates
+    # Remove duplicates
     articles = [a for a in articles if a.get("id") != md_relative]
 
     # Append new entry
@@ -274,9 +261,9 @@ def update_articles_json(state: BlogState) -> BlogState:
     # Sort newest-first
     articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)
 
-    articles_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(articles_path, "w", encoding="utf-8") as f:
-        json.dump(articles_sorted, f, indent=2, ensure_ascii=False)
+    # Upload updated JSON string back to R2
+    json_str = json.dumps(articles_sorted, indent=2, ensure_ascii=False)
+    upload_string_to_r2(json_str, json_key, content_type="application/json")
 
-    print(f"  ✅ articles.json updated: frontend/blogs/{domain}/articles.json  ({len(articles_sorted)} entries)")
+    print(f"  ✅ R2 articles.json updated: {json_key} ({len(articles_sorted)} entries)")
     return state
