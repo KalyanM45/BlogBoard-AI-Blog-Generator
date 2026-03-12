@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/digital-image-basics.md",
+    "category": "cv",
+    "title": "Digital Image Basics",
+    "description": "Learn digital image fundamentals and improve your computer vision skills",
+    "date": "2026-03-13",
+    "tags": [
+      "computer-vision",
+      "digital-image-processing",
+      "image-analysis",
+      "image-representation",
+      "pixel-manipulation"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/digital-image-basics.md"
+  },
+  {
     "id": "blogs/cv/computer-vision-intro.md",
     "category": "cv",
     "title": "Computer Vision Intro",
