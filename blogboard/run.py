@@ -82,16 +82,16 @@ Examples
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
-    if final_state.get("skipped"):
-        print(f"  ℹ️  No article scheduled for {date_str}.")
-        print(f"  (Sundays or unscheduled dates are skipped automatically.)")
-    elif dry_run:
+    if dry_run:
         print(f"  [DRY RUN] Pipeline completed — no files were written.")
-        print(f"  Would have generated:")
         domain = final_state.get("domain", "?")
+        topic  = final_state.get("topic", "?")
         slug   = final_state.get("slug", "?")
-        print(f"    → frontend/blogs/{domain}/{slug}.md")
-        print(f"    → frontend/blogs/{domain}/articles.json")
+        print(f"  Chosen Domain : {domain}")
+        print(f"  Chosen Topic  : {topic}")
+        print(f"  Would have generated:")
+        print(f"    -> frontend/blogs/{domain}/{slug}.md")
+        print(f"    -> frontend/blogs/{domain}/articles.json")
     else:
         domain    = final_state.get("domain", "?")
         title     = final_state.get("title", "?")

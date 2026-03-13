@@ -35,77 +35,74 @@ def _get_groq_client():
             "[ERROR] groq package not installed. Run: pip install -r backend/requirements.txt"
         )
 
-def consolidate_schedule(state: BlogState) -> BlogState:
+from storage import get_recent_history, get_all_domains_last_updated
+import random
 
-    if not INPUT_DIR.exists():
-        raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
+def autonomous_topic_selection(state: BlogState) -> BlogState:
+    """Autonomously selects a domain and topic based on recent R2 history, avoiding repetition."""
+    print("  => Autonomous Topic Agent running...")
 
-    schedule: dict[str, dict] = {}
-    total = 0
-    conflicts: list[tuple] = []
+    # 1. Pick a domain that needs an article (e.g., oldest updated)
+    domain_dates = get_all_domains_last_updated()
+    
+    # Sort domains by oldest first (or 'Never' first).
+    # Since dates are ISO YYYY-MM-DD, standard string sort works perfectly.
+    sorted_domains = sorted(domain_dates.items(), key=lambda item: item[1])
+    target_domain = sorted_domains[0][0] # The one least recently updated
+    cat_label = CATEGORY_META.get(target_domain, {}).get("label", target_domain)
+    print(f"  [AGENT] Selected domain: {target_domain} (Last updated: {domain_dates[target_domain]})")
 
-    for filename, domain in DOMAIN_MAP.items():
-        filepath = INPUT_DIR / filename
-        if not filepath.exists():
-            print(f"  [WARN]  Skipping missing file: {filename}")
-            continue
+    # 2. Fetch the last 3 articles for this domain to use as history block
+    recent_history = get_recent_history(target_domain, limit=3)
+    
+    history_str = "No recent history found."
+    if recent_history:
+        history_str = "\n---\n".join([
+            f"Title: {item['title']}\nTopic: {item['topic']}\nSubtopics: {item['subtopics']}"
+            for item in recent_history
+        ])
+    
+    # 3. Call Groq to pick a new topic
+    prompt_path = BACKEND_DIR / "prompts" / "autonomous_topic_selection.txt"
+    if not prompt_path.exists():
+        raise FileNotFoundError(f"Missing prompt file: {prompt_path}")
+        
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        prompt_template = f.read()
+        
+    prompt = prompt_template.replace("{cat_label}", cat_label).replace("{history}", history_str)
 
-        with open(filepath, "r", encoding="utf-8") as f:
-            entries = json.load(f)
+    client = _get_groq_client()
+    res = client.chat.completions.create(
+        model=MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.8,
+        max_tokens=250,
+    )
+    
+    raw = res.choices[0].message.content.strip()
+    raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
+    raw = re.sub(r"```\s*$", "", raw, flags=re.MULTILINE)
+    
+    try:
+        topic_data = json.loads(raw.strip())
+        topic = topic_data.get("topic", "Advanced Concepts")
+        subtopics = topic_data.get("subtopics", "")
+    except json.JSONDecodeError:
+        print(f"  [WARN] Failed to parse Autonomous Topic JSON. Raw response: {raw}")
+        topic = "Emerging Trends in " + cat_label
+        subtopics = ""
 
-        for entry in entries:
-            date  = entry.get("date", "").strip()
-            topic = entry.get("topic", "").strip()
-            subtopics = entry.get("subtopics", "").strip()
+    print(f"  [AGENT] Chosen Topic: {topic}")
+    print(f"  [AGENT] Subtopics   : {subtopics}")
 
-            if not date or not topic:
-                print(f"  [WARN]  Skipping entry with missing date/topic in {filename}: {entry}")
-                continue
-
-            if date in schedule:
-                conflicts.append((date, schedule[date]["domain"], domain))
-                print(
-                    f"  [WARN]  Date conflict: {date} already assigned to "
-                    f"{schedule[date]['domain']}, overwriting with {domain}"
-                )
-
-            schedule_entry = {"domain": domain, "topic": topic}
-            if subtopics:
-                schedule_entry["subtopics"] = subtopics
-
-            schedule[date] = schedule_entry
-            total += 1
-
-
-    schedule = dict(sorted(schedule.items()))
-    with open(SCHEDULE_FILE, "w", encoding="utf-8") as f:
-        json.dump(schedule, f, indent=2, ensure_ascii=False)
-
-    print(f"  ✅ schedule.json written — {total} entries, {len(schedule)} dates, {len(conflicts)} conflict(s)")
-    return {**state, "schedule": schedule}
-
-
-
-def get_domain_topic(state: BlogState) -> BlogState:
-
-    date, schedule = state["date"], state["schedule"]
-
-    if date not in schedule:
-        print(f"  [INFO]  No article scheduled for {date}. (Skipping generation.)")
-        return {**state, "skipped": True}
-
-    entry = schedule[date]
-    domain, topic = entry["domain"], entry["topic"]
-    subtopics = entry.get("subtopics", "")
-    label = CATEGORY_META.get(domain, {}).get("label", domain)
-
-    print(f"  Date      : {date}")
-    print(f"  Domain    : {domain}  ({label})")
-    print(f"  Topic     : {topic}")
-    if subtopics:
-        print(f"  Subtopics : {subtopics}")
-
-    return {**state, "domain": domain, "topic": topic, "subtopics": subtopics, "skipped": False}
+    return {
+        **state,
+        "domain": target_domain,
+        "topic": topic,
+        "subtopics": subtopics,
+        "skipped": False
+    }
 
 
 def llm_generate(state: BlogState) -> BlogState:
@@ -250,6 +247,8 @@ def update_articles_json(state: BlogState) -> BlogState:
     articles.append({
         "id":          md_relative,
         "category":    domain,
+        "topic":       state.get("topic", title),
+        "subtopics":   state.get("subtopics", ""),
         "title":       title,
         "description": description,
         "date":        date,

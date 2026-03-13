@@ -43,6 +43,43 @@ def get_articles_json_from_r2(domain: str) -> list[dict]:
         print(f"[WARN] {object_key} contained invalid JSON. Starting fresh.")
         return []
 
+def get_recent_history(domain: str, limit: int = 3) -> list[dict]:
+    """Fetches the N most recent articles for a specific domain to give context to the LLM."""
+    articles = get_articles_json_from_r2(domain)
+    # The list is already expected to be sorted newest-first by the update_articles_json function,
+    # but we sort here safely just in case.
+    sorted_articles = sorted(articles, key=lambda x: x.get("date", ""), reverse=True)
+    recent = sorted_articles[:limit]
+    
+    # Prune heavy data to save on prompt tokens
+    history_summary = []
+    for a in recent:
+        history_summary.append({
+            "title": a.get("title"),
+            "topic": a.get("topic"),
+            "subtopics": a.get("subtopics", "")
+        })
+    return history_summary
+
+def get_all_domains_last_updated() -> dict[str, str]:
+    """Scans all domains and returns a map of domain -> latest article date.
+    This helps the autonomous agent pick a domain that hasn't been written about recently.
+    """
+    # Assuming config DOMAIN_MAP maintains the list of supported domains
+    from config.config import DOMAIN_MAP
+    
+    latest_dates = {}
+    for domain in DOMAIN_MAP.values():
+        articles = get_articles_json_from_r2(domain)
+        if not articles:
+            latest_dates[domain] = "Never"
+            continue
+            
+        sorted_articles = sorted(articles, key=lambda x: x.get("date", ""), reverse=True)
+        latest_dates[domain] = sorted_articles[0].get("date", "Unknown")
+        
+    return latest_dates
+
 def upload_string_to_r2(content: str, object_key: str, content_type: str = "text/plain"):
     """Uploads a raw string to Cloudflare R2."""
     s3 = get_r2_client()

@@ -7,9 +7,17 @@ requires-python = ">=3.13"
 dependencies = [
     "boto3>=1.42.65",
     "fastapi>=0.135.1",
-    "groq>=1.0.0",
     "langchain-core>=1.2.16",
+    "langchain-groq>=1.1.2",
     "langgraph>=1.0.10",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.1",
+    "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.1",
     "uvicorn>=0.41.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
 ]
