@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/machine-learning-life-cycle.md",
+    "category": "ml",
+    "title": "Machine Learning Life Cycle",
+    "description": "Learn machine learning project workflow and best practices to improve model efficiency",
+    "date": "2026-03-16",
+    "tags": [
+      "machine-learning",
+      "deep-learning",
+      "natural-language-processing",
+      "model-deployment",
+      "data-science"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/machine-learning-life-cycle.md"
+  },
+  {
     "id": "blogs/ml/machine-learning-challenges.md",
     "category": "ml",
     "title": "Machine Learning Challenges",
