@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/nlp-tokenization.md",
+    "category": "nlp",
+    "title": "NLP Tokenization",
+    "description": "Learn tokenization methods for text analysis",
+    "date": "2026-03-19",
+    "tags": [
+      "natural-language-processing",
+      "text-tokenization",
+      "nlp-techniques",
+      "tokenization-methods",
+      "text-analysis"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/nlp-tokenization.md"
+  },
+  {
     "id": "blogs/nlp/nlp-text-preprocessing.md",
     "category": "nlp",
     "title": "NLP Text Preprocessing",
