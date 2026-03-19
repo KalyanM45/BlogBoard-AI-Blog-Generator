@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/image-representation.md",
+    "category": "cv",
+    "title": "Image Representation",
+    "description": "Learn image representation and color spaces for better computer vision",
+    "date": "2026-03-20",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "color-spaces",
+      "image-representation",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/image-representation.md"
+  },
+  {
     "id": "blogs/cv/digital-image-basics.md",
     "category": "cv",
     "title": "Digital Image Basics",
