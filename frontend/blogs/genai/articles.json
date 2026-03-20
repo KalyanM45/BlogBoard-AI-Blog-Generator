@@ -3,16 +3,16 @@
     "id": "blogs/genai/generative-ai-models.md",
     "category": "genai",
     "title": "Generative AI Models",
-    "description": "Discover the evolution and applications of generative models. Learn their history",
-    "date": "2026-03-14",
+    "description": "Learn probabilistic generative modeling for AI. Discover techniques and applications.",
+    "date": "2026-03-21",
     "tags": [
-      "generative-models",
-      "deep-learning",
-      "artificial-intelligence",
+      "probabilistic-models",
+      "generative-ai",
       "machine-learning",
-      "neural-networks"
+      "deep-learning",
+      "natural-language-processing"
     ],
-    "readTime": "7 min",
+    "readTime": "6 min",
     "file": "blogs/genai/generative-ai-models.md"
   },
   {
