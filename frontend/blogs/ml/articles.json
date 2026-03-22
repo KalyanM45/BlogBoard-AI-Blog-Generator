@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/supervised-ml-classification.md",
+    "category": "ml",
+    "title": "Supervised ML Classification",
+    "description": "Learn supervised machine learning classification techniques for accurate predictions",
+    "date": "2026-03-23",
+    "tags": [
+      "machine-learning",
+      "supervised-learning",
+      "classification-algorithms",
+      "predictive-modeling",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ml/supervised-ml-classification.md"
+  },
+  {
     "id": "blogs/ml/machine-learning-life-cycle.md",
     "category": "ml",
     "title": "Machine Learning Life Cycle",
