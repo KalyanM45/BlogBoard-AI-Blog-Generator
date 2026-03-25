@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/stopwords-text-cleaning.md",
+    "category": "nlp",
+    "title": "Stopwords Text Cleaning",
+    "description": "Learn to improve text data quality by removing stopwords",
+    "date": "2026-03-26",
+    "tags": [
+      "natural-language-processing",
+      "text-preprocessing",
+      "stopwords-removal",
+      "text-cleaning",
+      "nlp-techniques"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/stopwords-text-cleaning.md"
+  },
+  {
     "id": "blogs/nlp/nlp-tokenization.md",
     "category": "nlp",
     "title": "NLP Tokenization",
