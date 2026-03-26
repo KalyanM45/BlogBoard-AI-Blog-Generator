@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/image-filtering-convolution.md",
+    "category": "cv",
+    "title": "Image Filtering Convolution",
+    "description": "Learn image filtering and convolution techniques for better image processing",
+    "date": "2026-03-27",
+    "tags": [
+      "image-filtering",
+      "convolutional-neural-networks",
+      "computer-vision",
+      "deep-learning",
+      "image-processing"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/image-filtering-convolution.md"
+  },
+  {
     "id": "blogs/cv/image-representation.md",
     "category": "cv",
     "title": "Image Representation",
