@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/autoregressive-models.md",
+    "category": "genai",
+    "title": "Autoregressive Models",
+    "description": "Learn about autoregressive models and their applications in generative AI. Improve your understanding",
+    "date": "2026-03-28",
+    "tags": [
+      "autoregressive-models",
+      "generative-ai",
+      "deep-learning",
+      "language-models",
+      "sequence-prediction"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/genai/autoregressive-models.md"
+  },
+  {
     "id": "blogs/genai/generative-ai-models.md",
     "category": "genai",
     "title": "Generative AI Models",
