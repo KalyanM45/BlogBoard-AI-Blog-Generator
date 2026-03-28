@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-5.md",
+    "category": "ainews",
+    "title": "The Week in AI #5",
+    "description": "This article discusses the current state of the AI industry, highlighting significant developments and shifts in the landscape of AI development and deployment.",
+    "date": "2026-03-29",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "10 min",
+    "file": "blogs/ainews/the-week-in-ai-5.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-4.md",
     "category": "ainews",
     "title": "The Week in AI #4",
