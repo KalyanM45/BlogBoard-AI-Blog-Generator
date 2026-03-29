@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/regression-ml.md",
+    "category": "ml",
+    "title": "Regression ML",
+    "description": "Learn supervised regression models for predictions. Master regression analysis",
+    "date": "2026-03-30",
+    "tags": [
+      "machine-learning",
+      "regression-analysis",
+      "supervised-learning",
+      "predictive-models",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/regression-ml.md"
+  },
+  {
     "id": "blogs/ml/supervised-ml-classification.md",
     "category": "ml",
     "title": "Supervised ML Classification",
