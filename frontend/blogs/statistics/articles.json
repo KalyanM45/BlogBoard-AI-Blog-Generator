@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/measures-of-dispersion.md",
+    "category": "statistics",
+    "title": "Measures of Dispersion",
+    "description": "Learn dispersion stats, boost AI model accuracy",
+    "date": "2026-04-01",
+    "tags": [
+      "statistics-for-ai",
+      "data-analysis",
+      "machine-learning",
+      "dispersion-measures",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/measures-of-dispersion.md"
+  },
+  {
     "id": "blogs/statistics/central-tendency-measures.md",
     "category": "statistics",
     "title": "Central Tendency Measures",
