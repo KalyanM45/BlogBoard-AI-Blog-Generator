@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/stemming-lemmatization.md",
+    "category": "nlp",
+    "title": "Stemming Lemmatization",
+    "description": "Learn stemming and lemmatization techniques for NLP tasks. Improve text analysis",
+    "date": "2026-04-02",
+    "tags": [
+      "natural-language-processing",
+      "text-preprocessing",
+      "stemming-techniques",
+      "lemmatization-algorithms",
+      "nlp-tasks"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/nlp/stemming-lemmatization.md"
+  },
+  {
     "id": "blogs/nlp/stopwords-text-cleaning.md",
     "category": "nlp",
     "title": "Stopwords Text Cleaning",
