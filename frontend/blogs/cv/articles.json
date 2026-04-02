@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/edge-detection-techniques.md",
+    "category": "cv",
+    "title": "Edge Detection Techniques",
+    "description": "Learn edge detection methods for image processing, improve computer vision",
+    "date": "2026-04-03",
+    "tags": [
+      "image-processing",
+      "computer-vision",
+      "edge-detection",
+      "object-recognition",
+      "machine-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/edge-detection-techniques.md"
+  },
+  {
     "id": "blogs/cv/image-filtering-convolution.md",
     "category": "cv",
     "title": "Image Filtering Convolution",
