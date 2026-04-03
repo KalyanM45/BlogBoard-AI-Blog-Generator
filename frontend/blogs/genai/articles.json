@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/energy-based-models.md",
+    "category": "genai",
+    "title": "Energy-Based Models",
+    "description": "Unlock energy-based models for generative AI. Discover their applications",
+    "date": "2026-04-04",
+    "tags": [
+      "generative-models",
+      "energy-based-learning",
+      "neural-networks",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/genai/energy-based-models.md"
+  },
+  {
     "id": "blogs/genai/autoregressive-models.md",
     "category": "genai",
     "title": "Autoregressive Models",
