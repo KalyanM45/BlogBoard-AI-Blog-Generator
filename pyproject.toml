@@ -11,9 +11,11 @@ dependencies = [
     "langchain-groq>=1.1.2",
     "langgraph>=1.0.10",
     "openpyxl>=3.1.5",
+    "opik",
     "pandas>=3.0.1",
     "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.1",
+    "sentry-sdk>=2.0.0",
     "uvicorn>=0.41.0",
 ]
 

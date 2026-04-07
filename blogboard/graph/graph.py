@@ -1,34 +1,69 @@
-from graph.state import BlogState
 from langgraph.graph import StateGraph, START, END
+# We no longer need InMemorySaver purely for running scripts, but we can keep it if checkpointing is desired. 
 from langgraph.checkpoint.memory import InMemorySaver
-from graph.nodes import (
-    autonomous_topic_selection,
-    llm_generate,
-    save_markdown,
-    update_articles_json,
-)
+
+from blogboard.graph.state import BlogState
+
+from blogboard.agents.tutorial_agent.agent import tutorial_node
+from blogboard.agents.news_agent.agent import news_node
+from blogboard.agents.validator_agent.agent import validator_node
 
 
-def _should_skip(state: BlogState) -> str:
+def _route_start(state: BlogState) -> str:
+    """Decides which Generation Track to take based on requested domain."""
     if state.get("skipped"):
-        return "skip"
-    return "continue"
+        return END
 
+    if state.get("domain") == "ainews":
+        return "news_agent"
+    return "tutorial_agent"
+
+def _route_after_validator(state: BlogState) -> str:
+    """Supervisor logic handling the Revision loop."""
+    if state.get("revision_needed"):
+        # Route back to the specific generator if rejected
+        if state.get("domain") == "ainews":
+            return "news_agent"
+        return "tutorial_agent"
+    
+    # If approved by Validator, the graph perfectly concludes.
+    return END
 
 def build_graph() -> StateGraph:
-
     builder = StateGraph(BlogState)
 
-    builder.add_node("autonomous_topic_selection", autonomous_topic_selection)
-    builder.add_node("llm_generate", llm_generate)
-    builder.add_node("save_markdown", save_markdown)
-    builder.add_node("update_articles_json", update_articles_json)
+    # 1. Add all agents
+    builder.add_node("tutorial_agent", tutorial_node)
+    builder.add_node("news_agent", news_node)
+    builder.add_node("validator", validator_node)
 
-    builder.add_edge(START, "autonomous_topic_selection")
-    builder.add_conditional_edges("autonomous_topic_selection", _should_skip, {"skip": END, "continue": "llm_generate"})
-    builder.add_edge("llm_generate", "save_markdown")
-    builder.add_edge("save_markdown", "update_articles_json")
-    builder.add_edge("update_articles_json", END)
+    # 2. Wire the execution edges
+    builder.add_conditional_edges(
+        START, 
+        _route_start, 
+        {
+            END: END,
+            "news_agent": "news_agent",
+            "tutorial_agent": "tutorial_agent"
+        }
+    )
+    
+    # Both generator agents funnel down universally to the validator agent
+    builder.add_edge("tutorial_agent", "validator")
+    builder.add_edge("news_agent", "validator")
+    
+    # Validator enforces standards, looping back if corrections are demanded
+    builder.add_conditional_edges(
+        "validator",
+        _route_after_validator,
+        {
+            "tutorial_agent": "tutorial_agent",
+            "news_agent": "news_agent",
+            END: END
+        }
+    )
+
     return builder.compile(checkpointer=InMemorySaver())
 
+# Expose compiled graph instance
 graph = build_graph()

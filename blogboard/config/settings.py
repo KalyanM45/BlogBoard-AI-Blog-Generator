@@ -1,9 +1,9 @@
 from typing import Dict
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, AliasChoices
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class LLMSettings(BaseModel):
-    API_KEY: str
+    API_KEY: str = Field(validation_alias=AliasChoices('API_KEY', 'api_key', 'GROQ_API_KEY', 'groq_api_key'))
     MODEL_NAME: str = "llama-3.3-70b-versatile"
     TEMPERATURE: float = 1.0
 
