@@ -1,17 +1,22 @@
 import json
 import re
 import math
+try:
+    from langfuse import observe
+except ImportError:
+    def observe(**kwargs): return lambda func: func
+
 from blogboard.graph.state import BlogState
 from blogboard.services.llm import LLMAgentService
 from blogboard.services.storage import R2StorageService
 from blogboard.config.settings import app_settings
 from blogboard.services.prompt_manager import prompt_manager
-from .prompts import TUTORIAL_TOPIC_PROMPT, TUTORIAL_GENERATION_PROMPT
 
 def _read_time(text: str) -> str:
     WORDS_PER_MINUTE = 200
     return f"{math.ceil(len(text.split()) / WORDS_PER_MINUTE)} min"
 
+@observe()
 def tutorial_node(state: BlogState) -> BlogState:
     print("  => [TutorialAgent] Running...")
     
@@ -20,20 +25,23 @@ def tutorial_node(state: BlogState) -> BlogState:
     # --- Step 1: Topic Selection (if not already strictly defined by State) ---
     topic = state.get("topic")
     subtopics = state.get("subtopics", "")
+    target_domain = state.get("domain")
     
     if not topic:
-        # Pick domain
-        domain_dates = storage.get_all_domains_last_updated()
-        # Filter out ainews so tutorial agent doesn't pick it
-        valid_domains = {k: v for k, v in domain_dates.items() if k != "ainews"}
-        
-        sorted_domains = sorted(valid_domains.items(), key=lambda item: item[1])
-        target_domain = sorted_domains[0][0]
+        if not target_domain:
+            # Auto-select oldest updated domain
+            domain_dates = storage.get_all_domains_last_updated()
+            # Filter out ainews so tutorial agent doesn't pick it
+            valid_domains = {k: v for k, v in domain_dates.items() if k != "ainews"}
+            
+            sorted_domains = sorted(valid_domains.items(), key=lambda item: item[1])
+            target_domain = sorted_domains[0][0]
+            print(f"  [AGENT] Autonomously selected domain: {target_domain}")
+        else:
+            print(f"  [AGENT] Using pre-selected domain: {target_domain}")
         
         tags_config = app_settings.tags.model_dump()
         cat_label = tags_config.get(target_domain, {}).get("label", target_domain)
-        
-        print(f"  [AGENT] Autonomously selected domain: {target_domain}")
         
         recent_history = storage.get_recent_history(target_domain, limit=3)
         history_str = "No recent history found."
@@ -43,7 +51,7 @@ def tutorial_node(state: BlogState) -> BlogState:
                 for item in recent_history
             ])
             
-        topic_prompt = prompt_manager.get_prompt("Tutorial_Topic_Prompt", TUTORIAL_TOPIC_PROMPT, cat_label=cat_label, history=history_str)
+        topic_prompt = prompt_manager.get_prompt("topic_selection", cat_label=cat_label, history=history_str)
         
         llm_service = LLMAgentService(temperature=0.8)
         res = llm_service.llm.invoke(topic_prompt)
@@ -82,9 +90,9 @@ def tutorial_node(state: BlogState) -> BlogState:
     if state.get("validator_feedback"):
         validator_feedback = f"CRITICAL FEEDBACK FROM PREVIOUS DRAFT. You must fix these issues:\n{state.get('validator_feedback')}"
 
+    prompt_name = "refine_content" if validator_feedback else "content_generation"
     generation_prompt = prompt_manager.get_prompt(
-        prompt_name="Tutorial_Generation_Prompt",
-        fallback_prompt=TUTORIAL_GENERATION_PROMPT,
+        prompt_name=prompt_name,
         cat_label=cat_label,
         topic=topic,
         subtopics=subtopics,

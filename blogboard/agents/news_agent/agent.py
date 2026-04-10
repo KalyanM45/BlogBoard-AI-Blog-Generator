@@ -1,4 +1,9 @@
 import math
+try:
+    from langfuse import observe
+except ImportError:
+    def observe(**kwargs): return lambda func: func
+
 from blogboard.graph.state import BlogState
 from blogboard.services.llm import LLMAgentService
 from blogboard.config.settings import app_settings
@@ -9,6 +14,7 @@ def _read_time(text: str) -> str:
     WORDS_PER_MINUTE = 200
     return f"{math.ceil(len(text.split()) / WORDS_PER_MINUTE)} min"
 
+@observe()
 def news_node(state: BlogState) -> BlogState:
     print("  => [NewsAgent] Running...")
     
@@ -54,8 +60,9 @@ def news_node(state: BlogState) -> BlogState:
     if state.get("validator_feedback"):
         validator_feedback = f"CRITICAL FEEDBACK FROM PREVIOUS DRAFT. You must fix these issues:\n{state.get('validator_feedback')}"
 
+    prompt_name = "refine_content" if validator_feedback else "ainews_generation"
     prompt = prompt_manager.get_prompt(
-        prompt_name="News_Generation_Prompt",
+        prompt_name=prompt_name,
         fallback_prompt=NEWS_GENERATION_PROMPT,
         cat_label=cat_label,
         topic=topic,

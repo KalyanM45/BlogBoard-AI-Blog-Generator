@@ -1,12 +1,18 @@
 import json
 import re
 from datetime import datetime
+try:
+    from langfuse import observe
+except ImportError:
+    def observe(**kwargs): return lambda func: func
+
 from blogboard.graph.state import BlogState
 from blogboard.services.llm import LLMAgentService
 from blogboard.services.storage import R2StorageService
 from blogboard.services.prompt_manager import prompt_manager
 from .prompts import VALIDATOR_PROMPT
 
+@observe()
 def validator_node(state: BlogState) -> BlogState:
     print("  => [ValidatorAgent] Running...")
     
@@ -28,7 +34,7 @@ def validator_node(state: BlogState) -> BlogState:
     date = state.get("date", datetime.now().strftime("%Y-%m-%d"))
 
     prompt = prompt_manager.get_prompt(
-        prompt_name="Validator_Prompt",
+        prompt_name="topic_refinement",
         fallback_prompt=VALIDATOR_PROMPT,
         topic=topic,
         content=content

@@ -1,3 +1,4 @@
+import os
 from typing import Optional, List
 from langchain_groq import ChatGroq
 from langchain_core.tools import BaseTool
@@ -5,6 +6,9 @@ from langgraph.prebuilt import create_react_agent
 
 from blogboard.config.settings import app_settings
 from blogboard.tools import TavilySearchTool, GuardianSearchTool
+
+
+from blogboard.clients import client_manager
 
 
 class LLMAgentService:
@@ -28,6 +32,11 @@ class LLMAgentService:
         self.temperature = temperature if temperature is not None else app_settings.llm.TEMPERATURE
         self.api_key = app_settings.llm.API_KEY
         
+        self.callbacks = []
+        lf_callback = getattr(client_manager.langfuse, "langfuse_callback_handler", None)
+        if lf_callback:
+            self.callbacks.append(lf_callback)
+
         # Statically instantiate the main LLM client for reuse across agents created by this service
         self.llm = self._initialize_llm()
 
@@ -41,7 +50,8 @@ class LLMAgentService:
         return ChatGroq(
             model=self.model_name,
             temperature=self.temperature,
-            api_key=self.api_key
+            api_key=self.api_key,
+            callbacks=self.callbacks
         )
         
     def get_news_agent(self, system_prompt: Optional[str] = None):
@@ -64,7 +74,7 @@ class LLMAgentService:
         agent = create_react_agent(
             model=self.llm,
             tools=news_tools,
-            state_modifier=system_prompt
+            prompt=system_prompt
         )
         return agent
         
@@ -82,6 +92,6 @@ class LLMAgentService:
         agent = create_react_agent(
             model=self.llm,
             tools=tools,
-            state_modifier=system_prompt
+            prompt=system_prompt
         )
         return agent

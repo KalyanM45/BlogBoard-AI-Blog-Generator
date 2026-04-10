@@ -1,38 +1,20 @@
 import os
 import logging
-
-try:
-    from opik import Opik
-    OPIK_AVAILABLE = True
-except ImportError:
-    OPIK_AVAILABLE = False
+from blogboard.clients import client_manager
 
 logger = logging.getLogger(__name__)
 
 class PromptManager:
-    def __init__(self):
-        self.client = None
-        if OPIK_AVAILABLE and os.getenv("OPIK_API_KEY"):
-            try:
-                self.client = Opik()
-                logger.info("Opik client initialized for prompt management.")
-            except Exception as e:
-                logger.warning(f"Failed to initialize Opik client: {e}")
-
-    def get_prompt(self, prompt_name: str, fallback_prompt: str, **kwargs) -> str:
+    def get_prompt(self, prompt_name: str, **kwargs) -> str:
         """
-        Attempt to fetch and format a prompt from Opik.
-        If it fails or Opik is unconfigured, format the fallback_prompt and return it.
+        Fetch and format a prompt from the designated metrics/observability platform (Langfuse).
+        Local fallbacks are disabled as per project requirements.
         """
-        if self.client:
-            try:
-                prompt_obj = self.client.get_prompt(name=prompt_name)
-                logger.info(f"✅ Fetched prompt '{prompt_name}' from Opik.")
-                return prompt_obj.format(**kwargs)
-            except Exception as e:
-                logger.warning(f"⚠️ Failed to fetch prompt '{prompt_name}' from Opik. Falling back to local prompt. Error: {e}")
-        
-        # Fallback to local prompt
-        return fallback_prompt.format(**kwargs)
+        try:
+            prompt_obj = client_manager.langfuse.langfuse_client.get_prompt(name=prompt_name)
+            return prompt_obj.compile(**kwargs)
+        except Exception as e:
+            logger.error(f"❌ Critical failure: Unable to fetch or format prompt '{prompt_name}': {e}")
+            raise RuntimeError(f"Prompt fetch failed for '{prompt_name}': {e}")
 
 prompt_manager = PromptManager()

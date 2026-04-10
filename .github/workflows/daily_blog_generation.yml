@@ -1,0 +1,74 @@
+name: Daily Autonomous Blog Generation
+
+on:
+  schedule:
+    # 5:00 AM IST is 11:30 PM UTC
+    # Runs at 23:30 UTC daily.
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: 'Explicit domain override'
+        required: false
+        default: ''
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Determine Target Domain
+        id: target
+        run: |
+          # If manual dispatch has a domain, use it
+          if [ "${{ github.event.inputs.domain }}" != "" ]; then
+            echo "domain=${{ github.event.inputs.domain }}" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Calculate Day of Week in IST (UTC+5.5)
+          # %u: day of week (1..7); 1 is Monday
+          IST_DAY=$(date -u -d "5 hours 30 minutes" +%u)
+          
+          case $IST_DAY in
+            1) DOMAIN="ml" ;;
+            2) DOMAIN="dl" ;;
+            3) DOMAIN="nlp" ;;
+            4) DOMAIN="cv" ;;
+            5) DOMAIN="genai" ;;
+            6) DOMAIN="statistics" ;;
+            7) DOMAIN="ainews" ;;
+            *) DOMAIN="ml" ;; # Fallback
+          esac
+          
+          echo "domain=$DOMAIN" >> $GITHUB_OUTPUT
+          echo "Selected Domain for Day $IST_DAY: $DOMAIN"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          python-version: "3.13"
+
+      - name: Install Dependencies
+        run: uv sync
+
+      - name: Run Blog Generation
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          R2__ACCOUNT_ID: ${{ secrets.R2__ACCOUNT_ID }}
+          R2__ACCESS_KEY_ID: ${{ secrets.R2__ACCESS_KEY_ID }}
+          R2__SECRET_ACCESS_KEY: ${{ secrets.R2__SECRET_ACCESS_KEY }}
+          R2__BUCKET_NAME: ${{ secrets.R2__BUCKET_NAME }}
+          CONTENT__TAVILY_API_KEY: ${{ secrets.CONTENT__TAVILY_API_KEY }}
+          CONTENT__GUARDIAN_API_KEY: ${{ secrets.CONTENT__GUARDIAN_API_KEY }}
+          CONTENT__UNSPLASH_API_KEY: ${{ secrets.CONTENT__UNSPLASH_API_KEY }}
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+          OPIK_API_KEY: ${{ secrets.OPIK_API_KEY }}
+        run: |
+          DOMAIN=${{ steps.target.outputs.domain }}
+          echo "Generating blog for domain: $DOMAIN"
+          uv run blogboard/run.py --domain $DOMAIN

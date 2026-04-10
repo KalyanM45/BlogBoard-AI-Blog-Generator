@@ -7,13 +7,8 @@ ROOT_DIR = BACKEND_DIR.parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-# ── Load .env (GROQ_API_KEY etc.) ────────────────────────────────────────────
-try:
-    from dotenv import load_dotenv
-    env_path = BACKEND_DIR.parent / ".env"
-    load_dotenv(dotenv_path=env_path)
-except ImportError:
-    pass  # python-dotenv is optional; export env vars manually if needed
+from blogboard.clients.manager import client_manager
+client_manager.initialize_langfuse()
 
 import os
 import sentry_sdk
@@ -67,16 +62,22 @@ Examples
         "--ainews", action="store_true",
         help="Run the AI News gathering and generation graph",
     )
+    parser.add_argument(
+        "--domain", type=str, default=None,
+        help="Explicitly set the domain (e.g., ml, dl, nlp, cv, genai, statistics, ainews)",
+    )
     args = parser.parse_args()
 
     date_str = args.date or today_ist()
     dry_run  = args.dry_run
-    run_ainews = args.ainews
+    run_ainews = args.ainews or (args.domain == "ainews")
+    target_domain = args.domain
 
     # ── Banner ────────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
     print(f"  BlogBoard — LangGraph Article Generator")
     print(f"  Date    : {date_str}")
+    print(f"  Domain  : {target_domain or 'Auto-select'}")
     print(f"  Dry run : {dry_run}")
     print(f"{'='*55}")
 
@@ -88,6 +89,8 @@ Examples
     
     if run_ainews:
         initial_state["domain"] = "ainews"
+    elif target_domain:
+        initial_state["domain"] = target_domain
 
     config = {"configurable": {"thread_id": "blogboard-1"}}
     # The single compiled graph is smart enough to route to NewsAgent if domain=='ainews'

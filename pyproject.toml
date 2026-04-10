@@ -7,8 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "boto3>=1.42.65",
     "fastapi>=0.135.1",
+    "langchain>=1.2.15",
     "langchain-core>=1.2.16",
     "langchain-groq>=1.1.2",
+    "langfuse>=4.2.0",
     "langgraph>=1.0.10",
     "openpyxl>=3.1.5",
     "opik",

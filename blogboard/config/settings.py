@@ -27,11 +27,17 @@ class ContentAPISettings(BaseModel):
     GUARDIAN_API_KEY: str
     UNSPLASH_API_KEY: str
 
+class LangfuseSettings(BaseModel):
+    SECRET_KEY: str
+    PUBLIC_KEY: str
+    BASE_URL: str
+
 class Settings(BaseSettings):
     llm: LLMSettings
     tags: TagSettings = Field(default_factory=TagSettings)
     r2: R2Settings
     content: ContentAPISettings
+    langfuse: LangfuseSettings
 
     model_config = SettingsConfigDict(
         env_file=".env",
